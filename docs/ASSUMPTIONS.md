@@ -21,9 +21,9 @@ These are explicit resolutions for details not fixed by `docs/PROBLEM_STATEMENT.
 
 - The eight dates per country listed in G3 are synthetic illustrative holidays. They are not sourced from, or asserted to represent, real public-holiday calendars.
 - Expense policies have version 1, `effective_from = 2026-01-01`, and no `effective_to`. Generate one row for each of the 10 E1 categories and each of the five countries. IDs are assigned in country order `IN, US, GB, DE, SG`, then E1 category order, yielding `XPO-0001` through `XPO-0050`.
-- E1 does not provide numerical limits. Use this synthetic per-line USD policy matrix for every country:
+- E1 does not provide numerical limits. Use the synthetic per-line USD policy matrix below, scaled by the cost-of-living factor for each employee country: IN 0.65, US 1.00, GB 0.95, DE 0.90, SG 1.05. Apply the factor and round half-up to 2 decimals for both the per-line limit and receipt threshold.
 
-  | category | per_line_limit_usd | receipt_threshold_usd |
+  | category | base per_line_limit_usd | base receipt_threshold_usd |
   |---|---:|---:|
   | MEALS | 150.00 | 25.00 |
   | LODGING | 500.00 | 50.00 |

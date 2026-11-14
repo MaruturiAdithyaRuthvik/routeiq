@@ -69,8 +69,6 @@ def _designated(
             and (designation.effective_to is None or on_date < designation.effective_to)
         ):
             continue
-        if designation.employee_id == requester_id:
-            continue
         employee = _valid_approver(
             organization,
             designation.employee_id,
@@ -81,7 +79,8 @@ def _designated(
             candidates.append((designation.priority, employee.employee_id, employee))
     if not candidates:
         return None
-    return min(candidates, key=lambda item: (item[0], item[1]))[2]
+    distinct_candidates = [item for item in candidates if item[2].employee_id != requester_id]
+    return min(distinct_candidates or candidates, key=lambda item: (item[0], item[1]))[2]
 
 
 def _chro(organization: OrganizationSnapshot, requester_id: str, on_date: date) -> Employee | None:
@@ -123,11 +122,13 @@ def _resolve_role(
             and employee.functional_role == FunctionalRole.HR_PARTNER
             and _active(employee, on_date)
             and employee.system_role == SystemRole.APPROVER
-            and employee.employee_id != requester.employee_id
         ]
         if not candidates:
             return None, ()
-        selected = min(candidates, key=lambda employee: employee.employee_id)
+        distinct_candidates = [
+            employee for employee in candidates if employee.employee_id != requester.employee_id
+        ]
+        selected = min(distinct_candidates or candidates, key=lambda employee: employee.employee_id)
         return selected, ()
     if role == ApprovalRole.DEPT_HEAD:
         owner_id: str | None = None

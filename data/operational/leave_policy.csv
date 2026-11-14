@@ -1,0 +1,7 @@
+leave_policy_id,name,annual_entitlement_days,carry_forward_max_days,max_consecutive_days,medical_certificate_after_days,tenure_required_months,lump_sum_days,is_unpaid,effective_from,effective_to
+LPO-001,Annual,24,10,20,,0,,False,2026-01-01,
+LPO-002,Sick,12,0,15,2,0,,False,2026-01-01,
+LPO-003,Casual,8,0,3,,0,,False,2026-01-01,
+LPO-004,Parental,,0,,,12,90,False,2026-01-01,
+LPO-005,Compassionate,,0,5,,0,5,False,2026-01-01,
+LPO-006,Unpaid,,0,30,,0,0,True,2026-01-01,

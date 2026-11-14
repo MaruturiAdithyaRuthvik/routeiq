@@ -1,0 +1,29 @@
+approval_rule_id,rule_code,request_type,priority,required_role,condition_description,designated_employee_id,effective_from,effective_to,version,is_active
+ARL-001,LEAVE_UNPAID_MANAGER,LEAVE,1,MANAGER,Unpaid leave requires manager approval.,,2026-01-01,,1,True
+ARL-002,LEAVE_UNPAID_HR,LEAVE,2,HR_PARTNER,Unpaid leave requires HR approval.,,2026-01-01,,1,True
+ARL-003,LEAVE_1_3_MANAGER,LEAVE,3,MANAGER,Leave of 1-3 business days requires manager approval.,,2026-01-01,,1,True
+ARL-004,LEAVE_4_10_MANAGER,LEAVE,4,MANAGER,Leave of 4-10 business days requires manager approval.,,2026-01-01,,1,True
+ARL-005,LEAVE_4_10_HR,LEAVE,5,HR_PARTNER,Leave of 4-10 business days requires HR approval.,,2026-01-01,,1,True
+ARL-006,LEAVE_GT10_MANAGER,LEAVE,6,MANAGER,Leave over 10 business days requires manager approval.,,2026-01-01,,1,True
+ARL-007,LEAVE_GT10_HR,LEAVE,7,HR_PARTNER,Leave over 10 business days requires HR approval.,,2026-01-01,,1,True
+ARL-008,LEAVE_GT10_DEPT,LEAVE,8,DEPT_HEAD,Leave over 10 business days requires department-head approval.,,2026-01-01,,1,True
+ARL-009,LEAVE_PARENTAL_MANAGER,LEAVE,9,MANAGER,Parental leave requires manager approval.,,2026-01-01,,1,True
+ARL-010,LEAVE_PARENTAL_HR,LEAVE,10,HR_PARTNER,Parental leave requires HR approval.,,2026-01-01,,1,True
+ARL-011,LEAVE_PARENTAL_DEPT,LEAVE,11,DEPT_HEAD,Parental leave requires department-head approval.,,2026-01-01,,1,True
+ARL-012,EXPENSE_AUTO_LT50,EXPENSE,1,SYSTEM,Total below USD 50 and no open flags.,,2026-01-01,,1,True
+ARL-013,EXPENSE_FLAGGED_LT50,EXPENSE,2,MANAGER,Total below USD 50 with one or more E3 flags.,,2026-01-01,,1,True
+ARL-014,EXPENSE_50_1000,EXPENSE,3,MANAGER,"Total from USD 50 to below USD 1,000.",,2026-01-01,,1,True
+ARL-015,EXPENSE_1000_5000_MANAGER,EXPENSE,4,MANAGER,"Total from USD 1,000 to below USD 5,000.",,2026-01-01,,1,True
+ARL-016,EXPENSE_1000_5000_DEPT,EXPENSE,5,DEPT_HEAD,"Total from USD 1,000 to below USD 5,000.",,2026-01-01,,1,True
+ARL-017,EXPENSE_5000_20000_MANAGER,EXPENSE,6,MANAGER,"Total from USD 5,000 to below USD 20,000.",,2026-01-01,,1,True
+ARL-018,EXPENSE_5000_20000_DEPT,EXPENSE,7,DEPT_HEAD,"Total from USD 5,000 to below USD 20,000.",,2026-01-01,,1,True
+ARL-019,EXPENSE_5000_20000_FINANCE,EXPENSE,8,FINANCE_CONTROLLER,"Total from USD 5,000 to below USD 20,000.",EMP-000019,2026-01-01,,1,True
+ARL-020,EXPENSE_GTE20000_MANAGER,EXPENSE,9,MANAGER,"Total of USD 20,000 or more.",,2026-01-01,,1,True
+ARL-021,EXPENSE_GTE20000_DEPT,EXPENSE,10,DEPT_HEAD,"Total of USD 20,000 or more.",,2026-01-01,,1,True
+ARL-022,EXPENSE_GTE20000_FINANCE,EXPENSE,11,FINANCE_CONTROLLER,"Total of USD 20,000 or more.",EMP-000019,2026-01-01,,1,True
+ARL-023,EXPENSE_GTE20000_CFO,EXPENSE,12,CFO,"Total of USD 20,000 or more.",EMP-000018,2026-01-01,,1,True
+ARL-024,EXPENSE_INTERNATIONAL_AIRFARE,EXPENSE,13,FINANCE_CONTROLLER,International airfare requires exception review.,EMP-000019,2026-01-01,,1,True
+ARL-025,EXPENSE_CLIENT_ENTERTAINMENT,EXPENSE,14,COMPLIANCE_OFFICER,Client entertainment line exceeds USD 250.,EMP-000020,2026-01-01,,1,True
+ARL-026,EXPENSE_GIFTS,EXPENSE,15,COMPLIANCE_OFFICER,Gift line exceeds USD 250.,EMP-000020,2026-01-01,,1,True
+ARL-027,EXPENSE_LIMIT_EXCEPTION,EXPENSE,16,FINANCE_CONTROLLER,Policy-limit breach not exceeding 150% requires exception review.,EMP-000019,2026-01-01,,1,True
+ARL-028,EXPENSE_MISSING_RECEIPT,EXPENSE,17,FINANCE_CONTROLLER,Missing receipt requires exception review.,EMP-000019,2026-01-01,,1,True

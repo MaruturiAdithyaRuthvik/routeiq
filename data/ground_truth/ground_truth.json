@@ -1,0 +1,642 @@
+{
+  "anomalies": [
+    {
+      "approval_step_id": null,
+      "details": {
+        "available_days": "-1.000000",
+        "employee_id": "EMP-000001"
+      },
+      "expected_finding_code": null,
+      "expense_claim_id": null,
+      "expense_line_id": null,
+      "ground_truth_anomaly_id": "GTA-2026-000001",
+      "issue_type": "NEGATIVE_LEAVE_BALANCE",
+      "label": "ANOMALY",
+      "leave_balance_id": "LBL-EMP-000001-LPO-001-2026",
+      "leave_request_id": null,
+      "reimbursement_id": null,
+      "violation_rule_ids": [
+        "L3"
+      ]
+    },
+    {
+      "approval_step_id": null,
+      "details": {
+        "overlapping_request_id": "LVE-2026-000051"
+      },
+      "expected_finding_code": "OVERLAP",
+      "expense_claim_id": null,
+      "expense_line_id": null,
+      "ground_truth_anomaly_id": "GTA-2026-000002",
+      "issue_type": "OVERLAPPING_APPROVED_LEAVE",
+      "label": "ANOMALY",
+      "leave_balance_id": null,
+      "leave_request_id": "LVE-2026-000052",
+      "reimbursement_id": null,
+      "violation_rule_ids": [
+        "L4"
+      ]
+    },
+    {
+      "approval_step_id": null,
+      "details": {
+        "end_date": "2026-02-15",
+        "start_date": "2026-02-14"
+      },
+      "expected_finding_code": "ZERO_BUSINESS_DAYS",
+      "expense_claim_id": null,
+      "expense_line_id": null,
+      "ground_truth_anomaly_id": "GTA-2026-000003",
+      "issue_type": "ZERO_BUSINESS_DAY_SPAN",
+      "label": "ANOMALY",
+      "leave_balance_id": null,
+      "leave_request_id": "LVE-2026-000001",
+      "reimbursement_id": null,
+      "violation_rule_ids": [
+        "L4"
+      ]
+    },
+    {
+      "approval_step_id": null,
+      "details": {
+        "business_days": 7,
+        "employee_id": "EMP-000035"
+      },
+      "expected_finding_code": "INSUFFICIENT_BALANCE",
+      "expense_claim_id": null,
+      "expense_line_id": null,
+      "ground_truth_anomaly_id": "GTA-2026-000004",
+      "issue_type": "INSUFFICIENT_BALANCE",
+      "label": "ANOMALY",
+      "leave_balance_id": null,
+      "leave_request_id": "LVE-2026-000002",
+      "reimbursement_id": null,
+      "violation_rule_ids": [
+        "L4"
+      ]
+    },
+    {
+      "approval_step_id": null,
+      "details": {
+        "claim_id": "EXP-2026-000001",
+        "total_usd": "85.00"
+      },
+      "expected_finding_code": "MISSING_RECEIPT",
+      "expense_claim_id": null,
+      "expense_line_id": "EXPL-EXP-2026-000001-01",
+      "ground_truth_anomaly_id": "GTA-2026-000005",
+      "issue_type": "MISSING_RECEIPT",
+      "label": "ANOMALY",
+      "leave_balance_id": null,
+      "leave_request_id": null,
+      "reimbursement_id": null,
+      "violation_rule_ids": [
+        "E3"
+      ]
+    },
+    {
+      "approval_step_id": null,
+      "details": {
+        "claim_id": "EXP-2026-000002",
+        "total_usd": "1372.63"
+      },
+      "expected_finding_code": "DUPLICATE_RECEIPT",
+      "expense_claim_id": null,
+      "expense_line_id": "EXPL-EXP-2026-000002-01",
+      "ground_truth_anomaly_id": "GTA-2026-000006",
+      "issue_type": "DUPLICATE_RECEIPT",
+      "label": "ANOMALY",
+      "leave_balance_id": null,
+      "leave_request_id": null,
+      "reimbursement_id": null,
+      "violation_rule_ids": [
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "approval_step_id": null,
+      "details": {
+        "claim_id": "EXP-2026-000003",
+        "total_usd": "760.81"
+      },
+      "expected_finding_code": "POLICY_LIMIT_BREACH",
+      "expense_claim_id": null,
+      "expense_line_id": "EXPL-EXP-2026-000003-01",
+      "ground_truth_anomaly_id": "GTA-2026-000007",
+      "issue_type": "POLICY_LIMIT_BREACH",
+      "label": "ANOMALY",
+      "leave_balance_id": null,
+      "leave_request_id": null,
+      "reimbursement_id": null,
+      "violation_rule_ids": [
+        "E3"
+      ]
+    },
+    {
+      "approval_step_id": null,
+      "details": {
+        "claim_id": "EXP-2026-000004",
+        "total_usd": "216.00"
+      },
+      "expected_finding_code": "POLICY_LIMIT_BREACH",
+      "expense_claim_id": null,
+      "expense_line_id": "EXPL-EXP-2026-000004-01",
+      "ground_truth_anomaly_id": "GTA-2026-000008",
+      "issue_type": "POLICY_LIMIT_BREACH",
+      "label": "ANOMALY",
+      "leave_balance_id": null,
+      "leave_request_id": null,
+      "reimbursement_id": null,
+      "violation_rule_ids": [
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "approval_step_id": null,
+      "details": {
+        "claim_id": "EXP-2026-000005",
+        "total_usd": "1385.41"
+      },
+      "expected_finding_code": "MISSING_COST_CENTER",
+      "expense_claim_id": "EXP-2026-000005",
+      "expense_line_id": null,
+      "ground_truth_anomaly_id": "GTA-2026-000009",
+      "issue_type": "MISSING_COST_CENTER",
+      "label": "ANOMALY",
+      "leave_balance_id": null,
+      "leave_request_id": null,
+      "reimbursement_id": null,
+      "violation_rule_ids": [
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "approval_step_id": null,
+      "details": {
+        "claim_id": "EXP-2026-000450",
+        "total_usd": "1537.81"
+      },
+      "expected_finding_code": "DATE_OUTSIDE_EMPLOYMENT",
+      "expense_claim_id": "EXP-2026-000450",
+      "expense_line_id": null,
+      "ground_truth_anomaly_id": "GTA-2026-000010",
+      "issue_type": "EXPENSE_OUTSIDE_EMPLOYMENT",
+      "label": "ANOMALY",
+      "leave_balance_id": null,
+      "leave_request_id": null,
+      "reimbursement_id": null,
+      "violation_rule_ids": [
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "approval_step_id": null,
+      "details": {
+        "claim_id": "EXP-2026-000007",
+        "total_usd": "60.75"
+      },
+      "expected_finding_code": "FUTURE_EXPENSE_DATE",
+      "expense_claim_id": "EXP-2026-000007",
+      "expense_line_id": null,
+      "ground_truth_anomaly_id": "GTA-2026-000011",
+      "issue_type": "FUTURE_EXPENSE_DATE",
+      "label": "ANOMALY",
+      "leave_balance_id": null,
+      "leave_request_id": null,
+      "reimbursement_id": null,
+      "violation_rule_ids": [
+        "E4"
+      ]
+    },
+    {
+      "approval_step_id": null,
+      "details": {
+        "employee_id": "EMP-000002",
+        "total_usd": "950.00"
+      },
+      "expected_finding_code": "SPLIT_CLAIM",
+      "expense_claim_id": "EXP-2026-000300",
+      "expense_line_id": null,
+      "ground_truth_anomaly_id": "GTA-2026-000012",
+      "issue_type": "SPLIT_CLAIM",
+      "label": "ANOMALY",
+      "leave_balance_id": null,
+      "leave_request_id": null,
+      "reimbursement_id": null,
+      "violation_rule_ids": [
+        "E10"
+      ]
+    },
+    {
+      "approval_step_id": null,
+      "details": {
+        "employee_id": "EMP-000002",
+        "total_usd": "950.00"
+      },
+      "expected_finding_code": "SPLIT_CLAIM",
+      "expense_claim_id": "EXP-2026-000301",
+      "expense_line_id": null,
+      "ground_truth_anomaly_id": "GTA-2026-000013",
+      "issue_type": "SPLIT_CLAIM",
+      "label": "ANOMALY",
+      "leave_balance_id": null,
+      "leave_request_id": null,
+      "reimbursement_id": null,
+      "violation_rule_ids": [
+        "E10"
+      ]
+    },
+    {
+      "approval_step_id": "APR-EXP-2026-000140-01",
+      "details": {
+        "employee_id": "EMP-000191",
+        "expense_claim_id": "EXP-2026-000140"
+      },
+      "expected_finding_code": "SELF_APPROVAL_PREVENTED",
+      "expense_claim_id": null,
+      "expense_line_id": null,
+      "ground_truth_anomaly_id": "GTA-2026-000014",
+      "issue_type": "SELF_APPROVAL",
+      "label": "ANOMALY",
+      "leave_balance_id": null,
+      "leave_request_id": null,
+      "reimbursement_id": null,
+      "violation_rule_ids": [
+        "G5"
+      ]
+    },
+    {
+      "approval_step_id": null,
+      "details": {
+        "expense_claim_id": "EXP-2026-000001",
+        "original_reimbursement_id": "RMB-2026-000001"
+      },
+      "expected_finding_code": "DUPLICATE_REIMBURSEMENT",
+      "expense_claim_id": null,
+      "expense_line_id": null,
+      "ground_truth_anomaly_id": "GTA-2026-000015",
+      "issue_type": "DUPLICATE_REIMBURSEMENT",
+      "label": "ANOMALY",
+      "leave_balance_id": null,
+      "leave_request_id": null,
+      "reimbursement_id": "RMB-2026-000834",
+      "violation_rule_ids": [
+        "E9"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "evaluation_metric": "decision_accuracy",
+      "expected_approval_path": [],
+      "expected_reason_codes": [
+        "OVERLAP"
+      ],
+      "expected_reimbursement": null,
+      "expected_risk_score": null,
+      "expected_status": "DRAFT",
+      "expense_claim_id": null,
+      "ground_truth_decision_id": "GTD-2026-000001",
+      "leave_request_id": "LVE-2026-000052",
+      "matched_rule_ids": [
+        "L4"
+      ]
+    },
+    {
+      "evaluation_metric": "decision_accuracy",
+      "expected_approval_path": [],
+      "expected_reason_codes": [
+        "ZERO_BUSINESS_DAYS"
+      ],
+      "expected_reimbursement": null,
+      "expected_risk_score": null,
+      "expected_status": "DRAFT",
+      "expense_claim_id": null,
+      "ground_truth_decision_id": "GTD-2026-000002",
+      "leave_request_id": "LVE-2026-000001",
+      "matched_rule_ids": [
+        "L4"
+      ]
+    },
+    {
+      "evaluation_metric": "decision_accuracy",
+      "expected_approval_path": [],
+      "expected_reason_codes": [
+        "INSUFFICIENT_BALANCE"
+      ],
+      "expected_reimbursement": null,
+      "expected_risk_score": null,
+      "expected_status": "DRAFT",
+      "expense_claim_id": null,
+      "ground_truth_decision_id": "GTD-2026-000003",
+      "leave_request_id": "LVE-2026-000002",
+      "matched_rule_ids": [
+        "L4"
+      ]
+    },
+    {
+      "evaluation_metric": "approval_path_accuracy",
+      "expected_approval_path": [
+        {
+          "approver_id": "EMP-000003",
+          "approver_name": "Arjun Anand",
+          "approver_type": "MANAGER",
+          "level": 1,
+          "reason": "Claim total is USD 50 to below USD 1,000.",
+          "rule_ids": [
+            "E5",
+            "AU3"
+          ]
+        },
+        {
+          "approver_id": "EMP-000019",
+          "approver_name": "Morgan Adams",
+          "approver_type": "FINANCE_CONTROLLER",
+          "level": 2,
+          "reason": "Missing-receipt exception requires finance-controller review.",
+          "rule_ids": [
+            "E6",
+            "AU3"
+          ]
+        }
+      ],
+      "expected_reason_codes": [
+        "MISSING_RECEIPT"
+      ],
+      "expected_reimbursement": true,
+      "expected_risk_score": null,
+      "expected_status": "REIMBURSED",
+      "expense_claim_id": "EXP-2026-000001",
+      "ground_truth_decision_id": "GTD-2026-000004",
+      "leave_request_id": null,
+      "matched_rule_ids": [
+        "E3"
+      ]
+    },
+    {
+      "evaluation_metric": "decision_accuracy",
+      "expected_approval_path": [],
+      "expected_reason_codes": [
+        "DUPLICATE_RECEIPT"
+      ],
+      "expected_reimbursement": false,
+      "expected_risk_score": null,
+      "expected_status": "DRAFT",
+      "expense_claim_id": "EXP-2026-000002",
+      "ground_truth_decision_id": "GTD-2026-000005",
+      "leave_request_id": null,
+      "matched_rule_ids": [
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "evaluation_metric": "approval_path_accuracy",
+      "expected_approval_path": [
+        {
+          "approver_id": "EMP-000012",
+          "approver_name": "Avery Adams",
+          "approver_type": "MANAGER",
+          "level": 1,
+          "reason": "Claim total is USD 50 to below USD 1,000.",
+          "rule_ids": [
+            "E5",
+            "AU3"
+          ]
+        },
+        {
+          "approver_id": "EMP-000019",
+          "approver_name": "Morgan Adams",
+          "approver_type": "FINANCE_CONTROLLER",
+          "level": 2,
+          "reason": "Policy-limit exception requires finance-controller review.",
+          "rule_ids": [
+            "E6",
+            "AU3"
+          ]
+        }
+      ],
+      "expected_reason_codes": [
+        "POLICY_LIMIT_BREACH"
+      ],
+      "expected_reimbursement": true,
+      "expected_risk_score": null,
+      "expected_status": "REIMBURSED",
+      "expense_claim_id": "EXP-2026-000003",
+      "ground_truth_decision_id": "GTD-2026-000006",
+      "leave_request_id": null,
+      "matched_rule_ids": [
+        "E3"
+      ]
+    },
+    {
+      "evaluation_metric": "decision_accuracy",
+      "expected_approval_path": [],
+      "expected_reason_codes": [
+        "POLICY_LIMIT_BREACH"
+      ],
+      "expected_reimbursement": false,
+      "expected_risk_score": null,
+      "expected_status": "DRAFT",
+      "expense_claim_id": "EXP-2026-000004",
+      "ground_truth_decision_id": "GTD-2026-000007",
+      "leave_request_id": null,
+      "matched_rule_ids": [
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "evaluation_metric": "decision_accuracy",
+      "expected_approval_path": [],
+      "expected_reason_codes": [
+        "MISSING_COST_CENTER"
+      ],
+      "expected_reimbursement": false,
+      "expected_risk_score": null,
+      "expected_status": "DRAFT",
+      "expense_claim_id": "EXP-2026-000005",
+      "ground_truth_decision_id": "GTD-2026-000008",
+      "leave_request_id": null,
+      "matched_rule_ids": [
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "evaluation_metric": "decision_accuracy",
+      "expected_approval_path": [],
+      "expected_reason_codes": [
+        "DATE_OUTSIDE_EMPLOYMENT"
+      ],
+      "expected_reimbursement": false,
+      "expected_risk_score": null,
+      "expected_status": "DRAFT",
+      "expense_claim_id": "EXP-2026-000450",
+      "ground_truth_decision_id": "GTD-2026-000009",
+      "leave_request_id": null,
+      "matched_rule_ids": [
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "evaluation_metric": "decision_accuracy",
+      "expected_approval_path": [],
+      "expected_reason_codes": [
+        "FUTURE_EXPENSE_DATE"
+      ],
+      "expected_reimbursement": false,
+      "expected_risk_score": null,
+      "expected_status": "DRAFT",
+      "expense_claim_id": "EXP-2026-000007",
+      "ground_truth_decision_id": "GTD-2026-000010",
+      "leave_request_id": null,
+      "matched_rule_ids": [
+        "E4"
+      ]
+    },
+    {
+      "evaluation_metric": "approval_path_accuracy",
+      "expected_approval_path": [
+        {
+          "approver_id": "EMP-000001",
+          "approver_name": "Aarav Anand",
+          "approver_type": "MANAGER",
+          "level": 1,
+          "reason": "Claim total is USD 50 to below USD 1,000.",
+          "rule_ids": [
+            "E5",
+            "AU3"
+          ]
+        }
+      ],
+      "expected_reason_codes": [
+        "SPLIT_CLAIM"
+      ],
+      "expected_reimbursement": false,
+      "expected_risk_score": null,
+      "expected_status": "APPROVED",
+      "expense_claim_id": "EXP-2026-000300",
+      "ground_truth_decision_id": "GTD-2026-000011",
+      "leave_request_id": null,
+      "matched_rule_ids": [
+        "E10",
+        "E9"
+      ]
+    },
+    {
+      "evaluation_metric": "approval_path_accuracy",
+      "expected_approval_path": [
+        {
+          "approver_id": "EMP-000001",
+          "approver_name": "Aarav Anand",
+          "approver_type": "MANAGER",
+          "level": 1,
+          "reason": "Claim total is USD 50 to below USD 1,000.",
+          "rule_ids": [
+            "E5",
+            "AU3"
+          ]
+        }
+      ],
+      "expected_reason_codes": [
+        "SPLIT_CLAIM"
+      ],
+      "expected_reimbursement": false,
+      "expected_risk_score": null,
+      "expected_status": "APPROVED",
+      "expense_claim_id": "EXP-2026-000301",
+      "ground_truth_decision_id": "GTD-2026-000012",
+      "leave_request_id": null,
+      "matched_rule_ids": [
+        "E10",
+        "E9"
+      ]
+    },
+    {
+      "evaluation_metric": "approval_path_accuracy",
+      "expected_approval_path": [
+        {
+          "approver_id": "EMP-000012",
+          "approver_name": "Avery Adams",
+          "approver_type": "MANAGER",
+          "level": 1,
+          "reason": "Claim total is USD 1,000 to below USD 5,000.",
+          "rule_ids": [
+            "E5",
+            "AU3"
+          ]
+        },
+        {
+          "approver_id": "EMP-000013",
+          "approver_name": "Blake Adams",
+          "approver_type": "DEPT_HEAD",
+          "level": 2,
+          "reason": "Claim total is USD 1,000 to below USD 5,000.",
+          "rule_ids": [
+            "E5",
+            "AU3"
+          ]
+        }
+      ],
+      "expected_reason_codes": [
+        "SELF_APPROVAL_PREVENTED"
+      ],
+      "expected_reimbursement": null,
+      "expected_risk_score": null,
+      "expected_status": "REJECTED",
+      "expense_claim_id": "EXP-2026-000140",
+      "ground_truth_decision_id": "GTD-2026-000013",
+      "leave_request_id": null,
+      "matched_rule_ids": [
+        "AU3",
+        "G5"
+      ]
+    },
+    {
+      "evaluation_metric": "approval_path_accuracy",
+      "expected_approval_path": [
+        {
+          "approver_id": "EMP-000003",
+          "approver_name": "Arjun Anand",
+          "approver_type": "MANAGER",
+          "level": 1,
+          "reason": "Claim total is USD 50 to below USD 1,000.",
+          "rule_ids": [
+            "E5",
+            "AU3"
+          ]
+        },
+        {
+          "approver_id": "EMP-000019",
+          "approver_name": "Morgan Adams",
+          "approver_type": "FINANCE_CONTROLLER",
+          "level": 2,
+          "reason": "Missing-receipt exception requires finance-controller review.",
+          "rule_ids": [
+            "E6",
+            "AU3"
+          ]
+        }
+      ],
+      "expected_reason_codes": [
+        "DUPLICATE_REIMBURSEMENT"
+      ],
+      "expected_reimbursement": false,
+      "expected_risk_score": null,
+      "expected_status": "REIMBURSED",
+      "expense_claim_id": "EXP-2026-000001",
+      "ground_truth_decision_id": "GTD-2026-000014",
+      "leave_request_id": null,
+      "matched_rule_ids": [
+        "AU3",
+        "E9"
+      ]
+    }
+  ]
+}

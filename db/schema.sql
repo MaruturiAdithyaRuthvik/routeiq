@@ -729,9 +729,10 @@ INSERT INTO public.expense_category (category, description) VALUES
     ('COMMUNICATION', 'Communication services')
 ON CONFLICT (category) DO NOTHING;
 
-WITH countries(country, country_order) AS (
-    VALUES ('IN'::char(2), 1), ('US'::char(2), 2), ('GB'::char(2), 3),
-           ('DE'::char(2), 4), ('SG'::char(2), 5)
+WITH countries(country, country_order, cost_factor) AS (
+    VALUES ('IN'::char(2), 1, 0.65::numeric), ('US'::char(2), 2, 1.00::numeric),
+           ('GB'::char(2), 3, 0.95::numeric), ('DE'::char(2), 4, 0.90::numeric),
+           ('SG'::char(2), 5, 1.05::numeric)
 ),
 category_limits(category, per_line_limit_usd, receipt_threshold_usd, category_order) AS (
     VALUES
@@ -748,7 +749,9 @@ category_limits(category, per_line_limit_usd, receipt_threshold_usd, category_or
 ),
 policy_rows AS (
     SELECT row_number() OVER (ORDER BY c.country_order, p.category_order) AS sequence,
-           p.category, c.country, p.per_line_limit_usd, p.receipt_threshold_usd
+           p.category, c.country,
+           round(p.per_line_limit_usd * c.cost_factor, 2) AS per_line_limit_usd,
+           round(p.receipt_threshold_usd * c.cost_factor, 2) AS receipt_threshold_usd
     FROM countries c CROSS JOIN category_limits p
 )
 INSERT INTO public.expense_policy (

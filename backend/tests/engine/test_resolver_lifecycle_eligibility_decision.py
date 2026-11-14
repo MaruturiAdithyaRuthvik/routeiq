@@ -98,6 +98,23 @@ def test_self_approval_escalates_and_records_reason() -> None:
     assert "SELF_APPROVAL_PREVENTED" in result.value[0].reason_codes
 
 
+def test_only_hr_partner_requester_escalates_to_manager(employee, manager) -> None:
+    requester = replace(
+        employee,
+        functional_role=FunctionalRole.HR_PARTNER,
+        system_role=SystemRole.APPROVER,
+    )
+    result = resolve_approvers(
+        (step(ApprovalRole.HR_PARTNER),),
+        requester,
+        OrganizationSnapshot((requester, manager)),
+        request_type=RequestType.LEAVE,
+    )
+    assert result.ok and result.value is not None
+    assert result.value[0].approver_id == manager.employee_id
+    assert "SELF_APPROVAL_PREVENTED" in result.value[0].reason_codes
+
+
 def test_hr_partner_deterministic_selection_and_unresolved(employee) -> None:
     hr_b = employee_by_role("EMP-000003", FunctionalRole.HR_PARTNER)
     hr_a = employee_by_role("EMP-000002", FunctionalRole.HR_PARTNER)

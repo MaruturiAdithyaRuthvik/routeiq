@@ -21,7 +21,7 @@ dependencies = [
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
-testpaths = ["tests/engine"]
+testpaths = ["tests/engine", "tests/datagen"]
 addopts = ["--strict-config", "--strict-markers"]
 
 [tool.coverage.run]
