@@ -113,6 +113,7 @@ def validate_dataset(context: GenerationContext) -> dict[str, Any]:
         expense_lines,
     )
     _validate_events(context)
+    _validate_ground_truth(context, leave_ids, claim_ids)
 
     multi_level = sum(
         1
@@ -133,6 +134,38 @@ def validate_dataset(context: GenerationContext) -> dict[str, Any]:
     }
     context.validation = summary
     return summary
+
+
+def _validate_ground_truth(
+    context: GenerationContext, leave_ids: set[str], claim_ids: set[str]
+) -> None:
+    for row in context.get_rows("ground_truth_anomaly"):
+        targets = [
+            row.get("leave_request_id"), row.get("leave_balance_id"),
+            row.get("expense_claim_id"), row.get("expense_line_id"),
+            row.get("approval_step_id"), row.get("reimbursement_id"),
+        ]
+        if sum(value is not None for value in targets) != 1:
+            raise ValueError(
+                f"ground-truth anomaly {row['ground_truth_anomaly_id']} has invalid target"
+            )
+        if row.get("leave_request_id") is not None and row["leave_request_id"] not in leave_ids:
+            raise ValueError(
+                f"ground-truth anomaly references missing leave {row['leave_request_id']}"
+            )
+        if row.get("expense_claim_id") is not None and row["expense_claim_id"] not in claim_ids:
+            raise ValueError(
+                f"ground-truth anomaly references missing claim {row['expense_claim_id']}"
+            )
+    for row in context.get_rows("ground_truth_decision"):
+        if row.get("leave_request_id") not in (None, *leave_ids):
+            raise ValueError(
+                f"ground-truth decision references missing leave {row['leave_request_id']}"
+            )
+        if row.get("expense_claim_id") not in (None, *claim_ids):
+            raise ValueError(
+                f"ground-truth decision references missing claim {row['expense_claim_id']}"
+            )
 
 
 def _validate_primary_ids(context: GenerationContext) -> None:

@@ -13,5 +13,26 @@ psql:
 	@test -f .env || cp .env.example .env
 	docker compose exec db sh -c 'exec psql -U "$$POSTGRES_USER" -d "$$POSTGRES_DB"'
 
-setup generate validate repro load test lint dev build down:
+setup:
+	cd backend && uv sync
+
+generate:
+	cd backend && uv run python -m app.datagen --seed 20261022 --scale full --out ../data
+
+validate:
+	cd backend && uv run python -m app.datagen.validate --data ../data
+
+repro:
+	cd backend && uv run python ../scripts/repro.py
+
+load:
+	cd backend && uv run python -m app.db.load --from ../data/csv
+
+test:
+	cd backend && uv run pytest
+
+lint:
+	cd backend && uv run ruff check app tests
+
+dev build down:
 	@echo "TODO: implement the $@ target."

@@ -1,0 +1,502 @@
+[
+  {
+    "category": "MEALS",
+    "country": "IN",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0001",
+    "per_line_limit_usd": "97.50",
+    "receipt_threshold_usd": "16.25",
+    "version": 1
+  },
+  {
+    "category": "LODGING",
+    "country": "IN",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0002",
+    "per_line_limit_usd": "325.00",
+    "receipt_threshold_usd": "32.50",
+    "version": 1
+  },
+  {
+    "category": "AIRFARE",
+    "country": "IN",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0003",
+    "per_line_limit_usd": "1300.00",
+    "receipt_threshold_usd": "0.00",
+    "version": 1
+  },
+  {
+    "category": "GROUND_TRANSPORT",
+    "country": "IN",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0004",
+    "per_line_limit_usd": "162.50",
+    "receipt_threshold_usd": "16.25",
+    "version": 1
+  },
+  {
+    "category": "SOFTWARE",
+    "country": "IN",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0005",
+    "per_line_limit_usd": "1950.00",
+    "receipt_threshold_usd": "0.00",
+    "version": 1
+  },
+  {
+    "category": "OFFICE_SUPPLIES",
+    "country": "IN",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0006",
+    "per_line_limit_usd": "325.00",
+    "receipt_threshold_usd": "16.25",
+    "version": 1
+  },
+  {
+    "category": "TRAINING",
+    "country": "IN",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0007",
+    "per_line_limit_usd": "1300.00",
+    "receipt_threshold_usd": "0.00",
+    "version": 1
+  },
+  {
+    "category": "CLIENT_ENTERTAINMENT",
+    "country": "IN",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0008",
+    "per_line_limit_usd": "650.00",
+    "receipt_threshold_usd": "16.25",
+    "version": 1
+  },
+  {
+    "category": "GIFTS",
+    "country": "IN",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0009",
+    "per_line_limit_usd": "325.00",
+    "receipt_threshold_usd": "16.25",
+    "version": 1
+  },
+  {
+    "category": "COMMUNICATION",
+    "country": "IN",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0010",
+    "per_line_limit_usd": "195.00",
+    "receipt_threshold_usd": "16.25",
+    "version": 1
+  },
+  {
+    "category": "MEALS",
+    "country": "US",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0011",
+    "per_line_limit_usd": "150.00",
+    "receipt_threshold_usd": "25.00",
+    "version": 1
+  },
+  {
+    "category": "LODGING",
+    "country": "US",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0012",
+    "per_line_limit_usd": "500.00",
+    "receipt_threshold_usd": "50.00",
+    "version": 1
+  },
+  {
+    "category": "AIRFARE",
+    "country": "US",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0013",
+    "per_line_limit_usd": "2000.00",
+    "receipt_threshold_usd": "0.00",
+    "version": 1
+  },
+  {
+    "category": "GROUND_TRANSPORT",
+    "country": "US",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0014",
+    "per_line_limit_usd": "250.00",
+    "receipt_threshold_usd": "25.00",
+    "version": 1
+  },
+  {
+    "category": "SOFTWARE",
+    "country": "US",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0015",
+    "per_line_limit_usd": "3000.00",
+    "receipt_threshold_usd": "0.00",
+    "version": 1
+  },
+  {
+    "category": "OFFICE_SUPPLIES",
+    "country": "US",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0016",
+    "per_line_limit_usd": "500.00",
+    "receipt_threshold_usd": "25.00",
+    "version": 1
+  },
+  {
+    "category": "TRAINING",
+    "country": "US",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0017",
+    "per_line_limit_usd": "2000.00",
+    "receipt_threshold_usd": "0.00",
+    "version": 1
+  },
+  {
+    "category": "CLIENT_ENTERTAINMENT",
+    "country": "US",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0018",
+    "per_line_limit_usd": "1000.00",
+    "receipt_threshold_usd": "25.00",
+    "version": 1
+  },
+  {
+    "category": "GIFTS",
+    "country": "US",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0019",
+    "per_line_limit_usd": "500.00",
+    "receipt_threshold_usd": "25.00",
+    "version": 1
+  },
+  {
+    "category": "COMMUNICATION",
+    "country": "US",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0020",
+    "per_line_limit_usd": "300.00",
+    "receipt_threshold_usd": "25.00",
+    "version": 1
+  },
+  {
+    "category": "MEALS",
+    "country": "GB",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0021",
+    "per_line_limit_usd": "142.50",
+    "receipt_threshold_usd": "23.75",
+    "version": 1
+  },
+  {
+    "category": "LODGING",
+    "country": "GB",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0022",
+    "per_line_limit_usd": "475.00",
+    "receipt_threshold_usd": "47.50",
+    "version": 1
+  },
+  {
+    "category": "AIRFARE",
+    "country": "GB",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0023",
+    "per_line_limit_usd": "1900.00",
+    "receipt_threshold_usd": "0.00",
+    "version": 1
+  },
+  {
+    "category": "GROUND_TRANSPORT",
+    "country": "GB",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0024",
+    "per_line_limit_usd": "237.50",
+    "receipt_threshold_usd": "23.75",
+    "version": 1
+  },
+  {
+    "category": "SOFTWARE",
+    "country": "GB",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0025",
+    "per_line_limit_usd": "2850.00",
+    "receipt_threshold_usd": "0.00",
+    "version": 1
+  },
+  {
+    "category": "OFFICE_SUPPLIES",
+    "country": "GB",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0026",
+    "per_line_limit_usd": "475.00",
+    "receipt_threshold_usd": "23.75",
+    "version": 1
+  },
+  {
+    "category": "TRAINING",
+    "country": "GB",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0027",
+    "per_line_limit_usd": "1900.00",
+    "receipt_threshold_usd": "0.00",
+    "version": 1
+  },
+  {
+    "category": "CLIENT_ENTERTAINMENT",
+    "country": "GB",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0028",
+    "per_line_limit_usd": "950.00",
+    "receipt_threshold_usd": "23.75",
+    "version": 1
+  },
+  {
+    "category": "GIFTS",
+    "country": "GB",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0029",
+    "per_line_limit_usd": "475.00",
+    "receipt_threshold_usd": "23.75",
+    "version": 1
+  },
+  {
+    "category": "COMMUNICATION",
+    "country": "GB",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0030",
+    "per_line_limit_usd": "285.00",
+    "receipt_threshold_usd": "23.75",
+    "version": 1
+  },
+  {
+    "category": "MEALS",
+    "country": "DE",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0031",
+    "per_line_limit_usd": "135.00",
+    "receipt_threshold_usd": "22.50",
+    "version": 1
+  },
+  {
+    "category": "LODGING",
+    "country": "DE",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0032",
+    "per_line_limit_usd": "450.00",
+    "receipt_threshold_usd": "45.00",
+    "version": 1
+  },
+  {
+    "category": "AIRFARE",
+    "country": "DE",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0033",
+    "per_line_limit_usd": "1800.00",
+    "receipt_threshold_usd": "0.00",
+    "version": 1
+  },
+  {
+    "category": "GROUND_TRANSPORT",
+    "country": "DE",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0034",
+    "per_line_limit_usd": "225.00",
+    "receipt_threshold_usd": "22.50",
+    "version": 1
+  },
+  {
+    "category": "SOFTWARE",
+    "country": "DE",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0035",
+    "per_line_limit_usd": "2700.00",
+    "receipt_threshold_usd": "0.00",
+    "version": 1
+  },
+  {
+    "category": "OFFICE_SUPPLIES",
+    "country": "DE",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0036",
+    "per_line_limit_usd": "450.00",
+    "receipt_threshold_usd": "22.50",
+    "version": 1
+  },
+  {
+    "category": "TRAINING",
+    "country": "DE",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0037",
+    "per_line_limit_usd": "1800.00",
+    "receipt_threshold_usd": "0.00",
+    "version": 1
+  },
+  {
+    "category": "CLIENT_ENTERTAINMENT",
+    "country": "DE",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0038",
+    "per_line_limit_usd": "900.00",
+    "receipt_threshold_usd": "22.50",
+    "version": 1
+  },
+  {
+    "category": "GIFTS",
+    "country": "DE",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0039",
+    "per_line_limit_usd": "450.00",
+    "receipt_threshold_usd": "22.50",
+    "version": 1
+  },
+  {
+    "category": "COMMUNICATION",
+    "country": "DE",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0040",
+    "per_line_limit_usd": "270.00",
+    "receipt_threshold_usd": "22.50",
+    "version": 1
+  },
+  {
+    "category": "MEALS",
+    "country": "SG",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0041",
+    "per_line_limit_usd": "157.50",
+    "receipt_threshold_usd": "26.25",
+    "version": 1
+  },
+  {
+    "category": "LODGING",
+    "country": "SG",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0042",
+    "per_line_limit_usd": "525.00",
+    "receipt_threshold_usd": "52.50",
+    "version": 1
+  },
+  {
+    "category": "AIRFARE",
+    "country": "SG",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0043",
+    "per_line_limit_usd": "2100.00",
+    "receipt_threshold_usd": "0.00",
+    "version": 1
+  },
+  {
+    "category": "GROUND_TRANSPORT",
+    "country": "SG",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0044",
+    "per_line_limit_usd": "262.50",
+    "receipt_threshold_usd": "26.25",
+    "version": 1
+  },
+  {
+    "category": "SOFTWARE",
+    "country": "SG",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0045",
+    "per_line_limit_usd": "3150.00",
+    "receipt_threshold_usd": "0.00",
+    "version": 1
+  },
+  {
+    "category": "OFFICE_SUPPLIES",
+    "country": "SG",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0046",
+    "per_line_limit_usd": "525.00",
+    "receipt_threshold_usd": "26.25",
+    "version": 1
+  },
+  {
+    "category": "TRAINING",
+    "country": "SG",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0047",
+    "per_line_limit_usd": "2100.00",
+    "receipt_threshold_usd": "0.00",
+    "version": 1
+  },
+  {
+    "category": "CLIENT_ENTERTAINMENT",
+    "country": "SG",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0048",
+    "per_line_limit_usd": "1050.00",
+    "receipt_threshold_usd": "26.25",
+    "version": 1
+  },
+  {
+    "category": "GIFTS",
+    "country": "SG",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0049",
+    "per_line_limit_usd": "525.00",
+    "receipt_threshold_usd": "26.25",
+    "version": 1
+  },
+  {
+    "category": "COMMUNICATION",
+    "country": "SG",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "expense_policy_id": "XPO-0050",
+    "per_line_limit_usd": "315.00",
+    "receipt_threshold_usd": "26.25",
+    "version": 1
+  }
+]

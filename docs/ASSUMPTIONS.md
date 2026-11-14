@@ -71,6 +71,8 @@ These are explicit resolutions for details not fixed by `docs/PROBLEM_STATEMENT.
 
 - Non-database root `Makefile` targets remain placeholders until their implementation commands exist.
 - `.env.example` contains local development connection settings and reproducibility values only; replace its sample database credentials for non-local deployment.
+- Judge-facing `data/csv/` and `data/json/` are operational-only exports; evaluation labels are emitted under `data/ground_truth/`. `data/sql/seed.sql` loads operational rows only.
+- Anomaly and decision labels are serialized into the requested compact evaluation columns at export time; source generation frames retain the database-oriented field names.
 
 ## Database implementation decisions
 

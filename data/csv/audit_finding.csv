@@ -1,0 +1,204 @@
+audit_finding_id,leave_request_id,expense_claim_id,expense_line_id,approval_step_id,reimbursement_id,finding_code,severity,status,details,detected_at
+AFN-2026-000001,LVE-2026-000001,,,,,ZERO_BUSINESS_DAYS,ERROR,OPEN,"{""message"":""Leave range contains no business days."",""rule_ids"":[""L4""]}",2026-01-01T09:20:00+00:00
+AFN-2026-000002,LVE-2026-000002,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-01-01T09:40:00+00:00
+AFN-2026-000003,LVE-2026-000012,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-01-05T09:00:00+00:00
+AFN-2026-000004,LVE-2026-000015,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-01-06T10:00:00+00:00
+AFN-2026-000005,LVE-2026-000016,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-01-06T10:20:00+00:00
+AFN-2026-000006,LVE-2026-000018,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-01-07T11:00:00+00:00
+AFN-2026-000007,LVE-2026-000029,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-01-11T10:40:00+00:00
+AFN-2026-000008,LVE-2026-000030,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-01-11T11:00:00+00:00
+AFN-2026-000009,LVE-2026-000036,,,,,TENURE_INELIGIBLE,ERROR,OPEN,"{""message"":""Employee does not meet the policy tenure requirement."",""rule_ids"":[""L4""]}",2026-01-13T09:00:00+00:00
+AFN-2026-000010,LVE-2026-000039,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-01-14T10:00:00+00:00
+AFN-2026-000011,LVE-2026-000047,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-01-17T12:40:00+00:00
+AFN-2026-000012,LVE-2026-000048,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-01-18T09:00:00+00:00
+AFN-2026-000013,LVE-2026-000049,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-01-18T09:20:00+00:00
+AFN-2026-000014,LVE-2026-000055,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-01-20T11:20:00+00:00
+AFN-2026-000015,LVE-2026-000069,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-01-26T12:00:00+00:00
+AFN-2026-000016,LVE-2026-000071,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-01-26T12:40:00+00:00
+AFN-2026-000017,LVE-2026-000076,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-01-28T10:20:00+00:00
+AFN-2026-000018,LVE-2026-000077,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-01-28T10:40:00+00:00
+AFN-2026-000019,LVE-2026-000078,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-01-29T11:00:00+00:00
+AFN-2026-000020,LVE-2026-000079,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-01-29T11:20:00+00:00
+AFN-2026-000021,LVE-2026-000080,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-01-30T11:40:00+00:00
+AFN-2026-000022,LVE-2026-000091,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-02-03T11:20:00+00:00
+AFN-2026-000023,LVE-2026-000099,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-02-06T10:00:00+00:00
+AFN-2026-000024,LVE-2026-000107,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-02-09T12:40:00+00:00
+AFN-2026-000025,LVE-2026-000108,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-02-09T09:00:00+00:00
+AFN-2026-000026,LVE-2026-000111,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-02-10T10:00:00+00:00
+AFN-2026-000027,LVE-2026-000115,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-02-11T11:20:00+00:00
+AFN-2026-000028,LVE-2026-000119,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-02-13T12:40:00+00:00
+AFN-2026-000029,LVE-2026-000120,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-02-13T09:00:00+00:00
+AFN-2026-000030,LVE-2026-000124,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-02-15T10:20:00+00:00
+AFN-2026-000031,LVE-2026-000129,,,,,TENURE_INELIGIBLE,ERROR,OPEN,"{""message"":""Employee does not meet the policy tenure requirement."",""rule_ids"":[""L4""]}",2026-02-17T12:00:00+00:00
+AFN-2026-000032,LVE-2026-000131,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-02-17T12:40:00+00:00
+AFN-2026-000033,LVE-2026-000133,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-02-18T09:20:00+00:00
+AFN-2026-000034,LVE-2026-000138,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-02-20T11:00:00+00:00
+AFN-2026-000035,LVE-2026-000146,,,,,TENURE_INELIGIBLE,ERROR,OPEN,"{""message"":""Employee does not meet the policy tenure requirement."",""rule_ids"":[""L4""]}",2026-02-23T09:40:00+00:00
+AFN-2026-000036,LVE-2026-000151,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-02-25T11:20:00+00:00
+AFN-2026-000037,LVE-2026-000153,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-02-25T12:00:00+00:00
+AFN-2026-000038,LVE-2026-000154,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-02-26T12:20:00+00:00
+AFN-2026-000039,LVE-2026-000156,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-02-27T09:00:00+00:00
+AFN-2026-000040,LVE-2026-000163,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-03-01T11:20:00+00:00
+AFN-2026-000041,LVE-2026-000166,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-03-02T12:20:00+00:00
+AFN-2026-000042,LVE-2026-000170,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-03-04T09:40:00+00:00
+AFN-2026-000043,LVE-2026-000175,,,,,TENURE_INELIGIBLE,ERROR,OPEN,"{""message"":""Employee does not meet the policy tenure requirement."",""rule_ids"":[""L4""]}",2026-03-06T11:20:00+00:00
+AFN-2026-000044,LVE-2026-000177,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-03-06T12:00:00+00:00
+AFN-2026-000045,LVE-2026-000190,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-03-11T12:20:00+00:00
+AFN-2026-000046,LVE-2026-000192,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-03-12T09:00:00+00:00
+AFN-2026-000047,LVE-2026-000201,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-03-15T12:00:00+00:00
+AFN-2026-000048,LVE-2026-000217,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-03-21T09:20:00+00:00
+AFN-2026-000049,LVE-2026-000219,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-03-22T10:00:00+00:00
+AFN-2026-000050,LVE-2026-000222,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-03-23T11:00:00+00:00
+AFN-2026-000051,LVE-2026-000226,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-03-24T12:20:00+00:00
+AFN-2026-000052,LVE-2026-000229,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-03-25T09:20:00+00:00
+AFN-2026-000053,LVE-2026-000244,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-03-31T10:20:00+00:00
+AFN-2026-000054,LVE-2026-000249,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-04-02T12:00:00+00:00
+AFN-2026-000055,LVE-2026-000253,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-04-03T09:20:00+00:00
+AFN-2026-000056,LVE-2026-000256,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-04-04T10:20:00+00:00
+AFN-2026-000057,LVE-2026-000263,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-04-07T12:40:00+00:00
+AFN-2026-000058,LVE-2026-000274,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-04-11T12:20:00+00:00
+AFN-2026-000059,LVE-2026-000279,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-04-13T10:00:00+00:00
+AFN-2026-000060,LVE-2026-000280,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-04-13T10:20:00+00:00
+AFN-2026-000061,LVE-2026-000281,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-04-14T10:40:00+00:00
+AFN-2026-000062,LVE-2026-000284,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-04-15T11:40:00+00:00
+AFN-2026-000063,LVE-2026-000292,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-04-18T10:20:00+00:00
+AFN-2026-000064,LVE-2026-000295,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-04-19T11:20:00+00:00
+AFN-2026-000065,LVE-2026-000296,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-04-19T11:40:00+00:00
+AFN-2026-000066,LVE-2026-000305,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-04-22T10:40:00+00:00
+AFN-2026-000067,LVE-2026-000308,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-04-23T11:40:00+00:00
+AFN-2026-000068,LVE-2026-000311,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-04-25T12:40:00+00:00
+AFN-2026-000069,LVE-2026-000314,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-04-26T09:40:00+00:00
+AFN-2026-000070,LVE-2026-000323,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-04-29T12:40:00+00:00
+AFN-2026-000071,LVE-2026-000326,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-04-30T09:40:00+00:00
+AFN-2026-000072,LVE-2026-000329,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-05-01T10:40:00+00:00
+AFN-2026-000073,LVE-2026-000338,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-05-05T09:40:00+00:00
+AFN-2026-000074,LVE-2026-000340,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-05-05T10:20:00+00:00
+AFN-2026-000075,LVE-2026-000345,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-05-07T12:00:00+00:00
+AFN-2026-000076,LVE-2026-000347,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-05-08T12:40:00+00:00
+AFN-2026-000077,LVE-2026-000348,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-05-08T09:00:00+00:00
+AFN-2026-000078,LVE-2026-000350,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-05-09T09:40:00+00:00
+AFN-2026-000079,LVE-2026-000353,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-05-10T10:40:00+00:00
+AFN-2026-000080,LVE-2026-000354,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-05-10T11:00:00+00:00
+AFN-2026-000081,LVE-2026-000359,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-05-12T12:40:00+00:00
+AFN-2026-000082,LVE-2026-000364,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-05-14T10:20:00+00:00
+AFN-2026-000083,LVE-2026-000365,,,,,TENURE_INELIGIBLE,ERROR,OPEN,"{""message"":""Employee does not meet the policy tenure requirement."",""rule_ids"":[""L4""]}",2026-05-14T10:40:00+00:00
+AFN-2026-000084,LVE-2026-000377,,,,,TENURE_INELIGIBLE,ERROR,OPEN,"{""message"":""Employee does not meet the policy tenure requirement."",""rule_ids"":[""L4""]}",2026-05-19T10:40:00+00:00
+AFN-2026-000085,LVE-2026-000393,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-05-25T12:00:00+00:00
+AFN-2026-000086,LVE-2026-000411,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-05-31T10:00:00+00:00
+AFN-2026-000087,LVE-2026-000415,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-06-02T11:20:00+00:00
+AFN-2026-000088,LVE-2026-000423,,,,,TENURE_INELIGIBLE,ERROR,OPEN,"{""message"":""Employee does not meet the policy tenure requirement."",""rule_ids"":[""L4""]}",2026-06-05T10:00:00+00:00
+AFN-2026-000089,LVE-2026-000426,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-06-06T11:00:00+00:00
+AFN-2026-000090,LVE-2026-000431,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-06-08T12:40:00+00:00
+AFN-2026-000091,LVE-2026-000436,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-06-10T10:20:00+00:00
+AFN-2026-000092,LVE-2026-000440,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-06-11T11:40:00+00:00
+AFN-2026-000093,LVE-2026-000441,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-06-11T12:00:00+00:00
+AFN-2026-000094,LVE-2026-000444,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-06-13T09:00:00+00:00
+AFN-2026-000095,LVE-2026-000446,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-06-13T09:40:00+00:00
+AFN-2026-000096,LVE-2026-000448,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-06-14T10:20:00+00:00
+AFN-2026-000097,LVE-2026-000453,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-06-16T12:00:00+00:00
+AFN-2026-000098,LVE-2026-000455,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-06-17T12:40:00+00:00
+AFN-2026-000099,LVE-2026-000457,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-06-17T09:20:00+00:00
+AFN-2026-000100,LVE-2026-000466,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-06-21T12:20:00+00:00
+AFN-2026-000101,LVE-2026-000468,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-06-21T09:00:00+00:00
+AFN-2026-000102,LVE-2026-000475,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-06-24T11:20:00+00:00
+AFN-2026-000103,LVE-2026-000491,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-06-30T12:40:00+00:00
+AFN-2026-000104,LVE-2026-000492,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-06-30T09:00:00+00:00
+AFN-2026-000105,LVE-2026-000493,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-07-01T09:20:00+00:00
+AFN-2026-000106,LVE-2026-000496,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-07-02T10:20:00+00:00
+AFN-2026-000107,LVE-2026-000498,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-07-02T11:00:00+00:00
+AFN-2026-000108,LVE-2026-000500,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-07-03T11:40:00+00:00
+AFN-2026-000109,LVE-2026-000503,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-07-04T12:40:00+00:00
+AFN-2026-000110,LVE-2026-000511,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-07-07T11:20:00+00:00
+AFN-2026-000111,LVE-2026-000518,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-07-10T09:40:00+00:00
+AFN-2026-000112,LVE-2026-000524,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-07-12T11:40:00+00:00
+AFN-2026-000113,LVE-2026-000526,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-07-13T12:20:00+00:00
+AFN-2026-000114,LVE-2026-000527,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-07-13T12:40:00+00:00
+AFN-2026-000115,LVE-2026-000529,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-07-14T09:20:00+00:00
+AFN-2026-000116,LVE-2026-000531,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-07-15T10:00:00+00:00
+AFN-2026-000117,LVE-2026-000539,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-07-17T12:40:00+00:00
+AFN-2026-000118,LVE-2026-000547,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-07-20T11:20:00+00:00
+AFN-2026-000119,LVE-2026-000548,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-07-21T11:40:00+00:00
+AFN-2026-000120,LVE-2026-000552,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-07-22T09:00:00+00:00
+AFN-2026-000121,LVE-2026-000558,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-07-24T11:00:00+00:00
+AFN-2026-000122,LVE-2026-000559,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-07-25T11:20:00+00:00
+AFN-2026-000123,LVE-2026-000561,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-07-26T12:00:00+00:00
+AFN-2026-000124,LVE-2026-000563,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-07-26T12:40:00+00:00
+AFN-2026-000125,LVE-2026-000568,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-07-28T10:20:00+00:00
+AFN-2026-000126,LVE-2026-000569,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-07-29T10:40:00+00:00
+AFN-2026-000127,LVE-2026-000579,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-08-01T10:00:00+00:00
+AFN-2026-000128,LVE-2026-000587,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-08-04T12:40:00+00:00
+AFN-2026-000129,LVE-2026-000595,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-08-07T11:20:00+00:00
+AFN-2026-000130,LVE-2026-000597,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-08-08T12:00:00+00:00
+AFN-2026-000131,LVE-2026-000598,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-08-08T12:20:00+00:00
+AFN-2026-000132,LVE-2026-000601,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-08-09T09:20:00+00:00
+AFN-2026-000133,LVE-2026-000610,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-08-13T12:20:00+00:00
+AFN-2026-000134,LVE-2026-000613,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-08-14T09:20:00+00:00
+AFN-2026-000135,LVE-2026-000617,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-08-15T10:40:00+00:00
+AFN-2026-000136,LVE-2026-000620,,,,,ZERO_BUSINESS_DAYS,ERROR,OPEN,"{""message"":""Leave range contains no business days."",""rule_ids"":[""L4""]}",2026-08-16T11:40:00+00:00
+AFN-2026-000137,LVE-2026-000623,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-08-17T12:40:00+00:00
+AFN-2026-000138,LVE-2026-000629,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-08-20T10:40:00+00:00
+AFN-2026-000139,LVE-2026-000630,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-08-20T11:00:00+00:00
+AFN-2026-000140,LVE-2026-000638,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-08-23T09:40:00+00:00
+AFN-2026-000141,LVE-2026-000639,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-08-23T10:00:00+00:00
+AFN-2026-000142,LVE-2026-000644,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-08-25T11:40:00+00:00
+AFN-2026-000143,LVE-2026-000645,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-08-25T12:00:00+00:00
+AFN-2026-000144,LVE-2026-000646,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-08-26T12:20:00+00:00
+AFN-2026-000145,LVE-2026-000648,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-08-27T09:00:00+00:00
+AFN-2026-000146,LVE-2026-000650,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-08-27T09:40:00+00:00
+AFN-2026-000147,LVE-2026-000654,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-08-29T11:00:00+00:00
+AFN-2026-000148,LVE-2026-000660,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-08-31T09:00:00+00:00
+AFN-2026-000149,LVE-2026-000662,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-09-01T09:40:00+00:00
+AFN-2026-000150,LVE-2026-000668,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-09-03T11:40:00+00:00
+AFN-2026-000151,LVE-2026-000678,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-09-07T11:00:00+00:00
+AFN-2026-000152,LVE-2026-000679,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-09-07T11:20:00+00:00
+AFN-2026-000153,LVE-2026-000681,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-09-08T12:00:00+00:00
+AFN-2026-000154,LVE-2026-000682,,,,,ZERO_BUSINESS_DAYS,ERROR,OPEN,"{""message"":""Leave range contains no business days."",""rule_ids"":[""L4""]}",2026-09-08T12:20:00+00:00
+AFN-2026-000155,LVE-2026-000685,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-09-09T09:20:00+00:00
+AFN-2026-000156,LVE-2026-000688,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-09-10T10:20:00+00:00
+AFN-2026-000157,LVE-2026-000689,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-09-11T10:40:00+00:00
+AFN-2026-000158,LVE-2026-000691,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-09-11T11:20:00+00:00
+AFN-2026-000159,LVE-2026-000700,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-09-15T10:20:00+00:00
+AFN-2026-000160,LVE-2026-000702,,,,,TENURE_INELIGIBLE,ERROR,OPEN,"{""message"":""Employee does not meet the policy tenure requirement."",""rule_ids"":[""L4""]}",2026-09-15T11:00:00+00:00
+AFN-2026-000161,LVE-2026-000703,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-09-16T11:20:00+00:00
+AFN-2026-000162,LVE-2026-000711,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-09-19T10:00:00+00:00
+AFN-2026-000163,LVE-2026-000713,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-09-19T10:40:00+00:00
+AFN-2026-000164,LVE-2026-000714,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-09-20T11:00:00+00:00
+AFN-2026-000165,LVE-2026-000716,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-09-21T11:40:00+00:00
+AFN-2026-000166,LVE-2026-000717,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-09-21T12:00:00+00:00
+AFN-2026-000167,LVE-2026-000718,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-09-21T12:20:00+00:00
+AFN-2026-000168,LVE-2026-000720,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-09-22T09:00:00+00:00
+AFN-2026-000169,LVE-2026-000721,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-09-22T09:20:00+00:00
+AFN-2026-000170,LVE-2026-000725,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-09-24T10:40:00+00:00
+AFN-2026-000171,LVE-2026-000726,,,,,ZERO_BUSINESS_DAYS,ERROR,OPEN,"{""message"":""Leave range contains no business days."",""rule_ids"":[""L4""]}",2026-09-24T11:00:00+00:00
+AFN-2026-000172,LVE-2026-000728,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-09-25T11:40:00+00:00
+AFN-2026-000173,LVE-2026-000729,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-09-25T12:00:00+00:00
+AFN-2026-000174,LVE-2026-000735,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-09-28T10:00:00+00:00
+AFN-2026-000175,LVE-2026-000741,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-09-30T12:00:00+00:00
+AFN-2026-000176,LVE-2026-000744,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-10-01T09:00:00+00:00
+AFN-2026-000177,LVE-2026-000746,,,,,TENURE_INELIGIBLE,ERROR,OPEN,"{""message"":""Employee does not meet the policy tenure requirement."",""rule_ids"":[""L4""]}",2026-10-02T09:40:00+00:00
+AFN-2026-000178,LVE-2026-000751,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-10-03T11:20:00+00:00
+AFN-2026-000179,LVE-2026-000754,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-10-05T12:20:00+00:00
+AFN-2026-000180,LVE-2026-000755,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-10-05T12:40:00+00:00
+AFN-2026-000181,LVE-2026-000757,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-10-06T09:20:00+00:00
+AFN-2026-000182,LVE-2026-000759,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-10-06T10:00:00+00:00
+AFN-2026-000183,LVE-2026-000760,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-10-07T10:20:00+00:00
+AFN-2026-000184,LVE-2026-000763,,,,,OVERLAP,ERROR,OPEN,"{""message"":""Leave overlaps an active request for this employee."",""rule_ids"":[""L4""]}",2026-10-08T11:20:00+00:00
+AFN-2026-000185,LVE-2026-000765,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-10-09T12:00:00+00:00
+AFN-2026-000186,LVE-2026-000774,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-10-12T11:00:00+00:00
+AFN-2026-000187,LVE-2026-000778,,,,,MAX_CONSECUTIVE_DAYS,ERROR,OPEN,"{""message"":""Leave exceeds the policy's calendar-day maximum."",""rule_ids"":[""L4""]}",2026-10-13T12:20:00+00:00
+AFN-2026-000188,LVE-2026-000794,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-10-19T09:40:00+00:00
+AFN-2026-000189,LVE-2026-000795,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-10-20T10:00:00+00:00
+AFN-2026-000190,LVE-2026-000800,,,,,INSUFFICIENT_BALANCE,ERROR,OPEN,"{""message"":""Available leave balance is below requested business days."",""rule_ids"":[""L4""]}",2026-10-22T11:40:00+00:00
+AFN-2026-000191,,,EXPL-EXP-2026-000001-01,,,MISSING_RECEIPT,WARNING,OPEN,"{""message"":""A receipt is required above the effective threshold."",""pct_over"":null,""rule_id"":""E3""}",2026-01-02T09:20:00+00:00
+AFN-2026-000192,,,EXPL-EXP-2026-000002-01,,,DUPLICATE_RECEIPT,ERROR,OPEN,"{""message"":""Receipt hash appears on another expense line."",""pct_over"":null,""rule_id"":""E3""}",2026-01-02T09:40:00+00:00
+AFN-2026-000193,,,EXPL-EXP-2026-000003-01,,,POLICY_LIMIT_BREACH,WARNING,OPEN,"{""message"":""Line exceeds the effective per-line policy limit."",""pct_over"":""20.00"",""rule_id"":""E3""}",2026-01-02T10:00:00+00:00
+AFN-2026-000194,,,EXPL-EXP-2026-000004-01,,,POLICY_LIMIT_BREACH,WARNING,OPEN,"{""message"":""Line exceeds the effective per-line policy limit."",""pct_over"":""60.00"",""rule_id"":""E3""}",2026-01-02T10:20:00+00:00
+AFN-2026-000195,,EXP-2026-000005,,,,MISSING_COST_CENTER,ERROR,OPEN,"{""message"":""Expense claim has no cost center."",""pct_over"":null,""rule_id"":""E3""}",2026-01-03T10:40:00+00:00
+AFN-2026-000196,,EXP-2026-000007,,,,FUTURE_EXPENSE_DATE,ERROR,OPEN,"{""message"":""Expense date is after AS_OF_DATE."",""pct_over"":null,""rule_id"":""E4""}",2026-01-03T11:20:00+00:00
+AFN-2026-000197,,EXP-2026-000450,,,,MISSING_COST_CENTER,ERROR,OPEN,"{""message"":""Expense claim has no cost center."",""pct_over"":null,""rule_id"":""E3""}",2026-05-13T11:00:00+00:00
+AFN-2026-000198,,EXP-2026-000450,,,,DATE_OUTSIDE_EMPLOYMENT,ERROR,OPEN,"{""message"":""Expense date is outside the employee's employment dates."",""pct_over"":null,""rule_id"":""E3""}",2026-05-13T11:00:00+00:00
+AFN-2026-000199,,EXP-2026-000300,,,,SPLIT_CLAIM,WARNING,OPEN,"{""boundary_usd"":""1000"",""paired_claim_id"":""EXP-2026-000301"",""rule_ids"":[""E10""]}",2026-10-22T16:00:00+00:00
+AFN-2026-000200,,EXP-2026-000301,,,,SPLIT_CLAIM,WARNING,OPEN,"{""boundary_usd"":""1000"",""paired_claim_id"":""EXP-2026-000300"",""rule_ids"":[""E10""]}",2026-10-22T16:00:00+00:00
+AFN-2026-000201,LVE-2026-000052,,,,,OVERLAP,ERROR,OPEN,"{""overlapping_request_id"":""LVE-2026-000051"",""rule_id"":""L4""}",2026-10-22T16:00:00+00:00
+AFN-2026-000202,,,,APR-EXP-2026-000140-01,,SELF_APPROVAL_PREVENTED,ERROR,OPEN,"{""employee_id"":""EMP-000191"",""rule_id"":""G5""}",2026-10-22T16:00:00+00:00
+AFN-2026-000203,,,,,RMB-2026-000834,DUPLICATE_REIMBURSEMENT,ERROR,OPEN,"{""expense_claim_id"":""EXP-2026-000001"",""rule_id"":""E9""}",2026-10-22T16:00:00+00:00

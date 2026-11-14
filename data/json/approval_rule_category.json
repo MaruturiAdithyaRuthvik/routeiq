@@ -1,0 +1,140 @@
+[
+  {
+    "approval_rule_id": "ARL-024",
+    "category": "AIRFARE",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-025",
+    "category": "CLIENT_ENTERTAINMENT",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-026",
+    "category": "GIFTS",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-027",
+    "category": "MEALS",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-027",
+    "category": "LODGING",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-027",
+    "category": "AIRFARE",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-027",
+    "category": "GROUND_TRANSPORT",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-027",
+    "category": "SOFTWARE",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-027",
+    "category": "OFFICE_SUPPLIES",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-027",
+    "category": "TRAINING",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-027",
+    "category": "CLIENT_ENTERTAINMENT",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-027",
+    "category": "GIFTS",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-027",
+    "category": "COMMUNICATION",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-028",
+    "category": "MEALS",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-028",
+    "category": "LODGING",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-028",
+    "category": "AIRFARE",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-028",
+    "category": "GROUND_TRANSPORT",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-028",
+    "category": "SOFTWARE",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-028",
+    "category": "OFFICE_SUPPLIES",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-028",
+    "category": "TRAINING",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-028",
+    "category": "CLIENT_ENTERTAINMENT",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-028",
+    "category": "GIFTS",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "approval_rule_id": "ARL-028",
+    "category": "COMMUNICATION",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  }
+]

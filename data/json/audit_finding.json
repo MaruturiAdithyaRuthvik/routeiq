@@ -1,0 +1,3644 @@
+[
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000001",
+    "details": {
+      "message": "Leave range contains no business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-01T09:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "ZERO_BUSINESS_DAYS",
+    "leave_request_id": "LVE-2026-000001",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000002",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-01T09:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000002",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000003",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-05T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000012",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000004",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-06T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000015",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000005",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-06T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000016",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000006",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-07T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000018",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000007",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-11T10:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000029",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000008",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-11T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000030",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000009",
+    "details": {
+      "message": "Employee does not meet the policy tenure requirement.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-13T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "TENURE_INELIGIBLE",
+    "leave_request_id": "LVE-2026-000036",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000010",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-14T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000039",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000011",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-17T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000047",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000012",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-18T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000048",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000013",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-18T09:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000049",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000014",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-20T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000055",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000015",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-26T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000069",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000016",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-26T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000071",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000017",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-28T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000076",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000018",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-28T10:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000077",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000019",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-29T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000078",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000020",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-29T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000079",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000021",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-01-30T11:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000080",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000022",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-03T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000091",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000023",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-06T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000099",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000024",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-09T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000107",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000025",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-09T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000108",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000026",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-10T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000111",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000027",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-11T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000115",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000028",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-13T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000119",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000029",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-13T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000120",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000030",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-15T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000124",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000031",
+    "details": {
+      "message": "Employee does not meet the policy tenure requirement.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-17T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "TENURE_INELIGIBLE",
+    "leave_request_id": "LVE-2026-000129",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000032",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-17T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000131",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000033",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-18T09:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000133",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000034",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-20T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000138",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000035",
+    "details": {
+      "message": "Employee does not meet the policy tenure requirement.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-23T09:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "TENURE_INELIGIBLE",
+    "leave_request_id": "LVE-2026-000146",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000036",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-25T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000151",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000037",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-25T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000153",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000038",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-26T12:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000154",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000039",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-02-27T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000156",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000040",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-03-01T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000163",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000041",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-03-02T12:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000166",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000042",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-03-04T09:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000170",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000043",
+    "details": {
+      "message": "Employee does not meet the policy tenure requirement.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-03-06T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "TENURE_INELIGIBLE",
+    "leave_request_id": "LVE-2026-000175",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000044",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-03-06T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000177",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000045",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-03-11T12:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000190",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000046",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-03-12T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000192",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000047",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-03-15T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000201",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000048",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-03-21T09:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000217",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000049",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-03-22T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000219",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000050",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-03-23T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000222",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000051",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-03-24T12:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000226",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000052",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-03-25T09:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000229",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000053",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-03-31T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000244",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000054",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-02T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000249",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000055",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-03T09:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000253",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000056",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-04T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000256",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000057",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-07T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000263",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000058",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-11T12:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000274",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000059",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-13T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000279",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000060",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-13T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000280",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000061",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-14T10:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000281",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000062",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-15T11:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000284",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000063",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-18T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000292",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000064",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-19T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000295",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000065",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-19T11:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000296",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000066",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-22T10:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000305",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000067",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-23T11:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000308",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000068",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-25T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000311",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000069",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-26T09:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000314",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000070",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-29T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000323",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000071",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-04-30T09:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000326",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000072",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-05-01T10:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000329",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000073",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-05-05T09:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000338",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000074",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-05-05T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000340",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000075",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-05-07T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000345",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000076",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-05-08T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000347",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000077",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-05-08T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000348",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000078",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-05-09T09:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000350",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000079",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-05-10T10:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000353",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000080",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-05-10T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000354",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000081",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-05-12T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000359",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000082",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-05-14T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000364",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000083",
+    "details": {
+      "message": "Employee does not meet the policy tenure requirement.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-05-14T10:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "TENURE_INELIGIBLE",
+    "leave_request_id": "LVE-2026-000365",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000084",
+    "details": {
+      "message": "Employee does not meet the policy tenure requirement.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-05-19T10:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "TENURE_INELIGIBLE",
+    "leave_request_id": "LVE-2026-000377",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000085",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-05-25T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000393",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000086",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-05-31T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000411",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000087",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-02T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000415",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000088",
+    "details": {
+      "message": "Employee does not meet the policy tenure requirement.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-05T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "TENURE_INELIGIBLE",
+    "leave_request_id": "LVE-2026-000423",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000089",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-06T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000426",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000090",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-08T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000431",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000091",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-10T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000436",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000092",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-11T11:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000440",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000093",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-11T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000441",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000094",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-13T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000444",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000095",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-13T09:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000446",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000096",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-14T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000448",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000097",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-16T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000453",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000098",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-17T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000455",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000099",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-17T09:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000457",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000100",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-21T12:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000466",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000101",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-21T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000468",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000102",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-24T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000475",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000103",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-30T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000491",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000104",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-06-30T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000492",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000105",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-01T09:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000493",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000106",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-02T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000496",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000107",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-02T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000498",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000108",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-03T11:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000500",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000109",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-04T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000503",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000110",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-07T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000511",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000111",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-10T09:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000518",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000112",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-12T11:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000524",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000113",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-13T12:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000526",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000114",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-13T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000527",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000115",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-14T09:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000529",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000116",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-15T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000531",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000117",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-17T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000539",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000118",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-20T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000547",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000119",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-21T11:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000548",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000120",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-22T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000552",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000121",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-24T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000558",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000122",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-25T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000559",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000123",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-26T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000561",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000124",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-26T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000563",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000125",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-28T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000568",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000126",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-07-29T10:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000569",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000127",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-01T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000579",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000128",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-04T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000587",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000129",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-07T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000595",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000130",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-08T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000597",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000131",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-08T12:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000598",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000132",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-09T09:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000601",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000133",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-13T12:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000610",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000134",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-14T09:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000613",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000135",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-15T10:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000617",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000136",
+    "details": {
+      "message": "Leave range contains no business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-16T11:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "ZERO_BUSINESS_DAYS",
+    "leave_request_id": "LVE-2026-000620",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000137",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-17T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000623",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000138",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-20T10:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000629",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000139",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-20T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000630",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000140",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-23T09:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000638",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000141",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-23T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000639",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000142",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-25T11:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000644",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000143",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-25T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000645",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000144",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-26T12:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000646",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000145",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-27T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000648",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000146",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-27T09:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000650",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000147",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-29T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000654",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000148",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-08-31T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000660",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000149",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-01T09:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000662",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000150",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-03T11:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000668",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000151",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-07T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000678",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000152",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-07T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000679",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000153",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-08T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000681",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000154",
+    "details": {
+      "message": "Leave range contains no business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-08T12:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "ZERO_BUSINESS_DAYS",
+    "leave_request_id": "LVE-2026-000682",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000155",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-09T09:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000685",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000156",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-10T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000688",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000157",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-11T10:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000689",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000158",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-11T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000691",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000159",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-15T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000700",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000160",
+    "details": {
+      "message": "Employee does not meet the policy tenure requirement.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-15T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "TENURE_INELIGIBLE",
+    "leave_request_id": "LVE-2026-000702",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000161",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-16T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000703",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000162",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-19T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000711",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000163",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-19T10:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000713",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000164",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-20T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000714",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000165",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-21T11:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000716",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000166",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-21T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000717",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000167",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-21T12:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000718",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000168",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-22T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000720",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000169",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-22T09:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000721",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000170",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-24T10:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000725",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000171",
+    "details": {
+      "message": "Leave range contains no business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-24T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "ZERO_BUSINESS_DAYS",
+    "leave_request_id": "LVE-2026-000726",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000172",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-25T11:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000728",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000173",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-25T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000729",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000174",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-28T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000735",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000175",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-09-30T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000741",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000176",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-10-01T09:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000744",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000177",
+    "details": {
+      "message": "Employee does not meet the policy tenure requirement.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-10-02T09:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "TENURE_INELIGIBLE",
+    "leave_request_id": "LVE-2026-000746",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000178",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-10-03T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000751",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000179",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-10-05T12:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000754",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000180",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-10-05T12:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000755",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000181",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-10-06T09:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000757",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000182",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-10-06T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000759",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000183",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-10-07T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000760",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000184",
+    "details": {
+      "message": "Leave overlaps an active request for this employee.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-10-08T11:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000763",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000185",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-10-09T12:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000765",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000186",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-10-12T11:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000774",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000187",
+    "details": {
+      "message": "Leave exceeds the policy's calendar-day maximum.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-10-13T12:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "MAX_CONSECUTIVE_DAYS",
+    "leave_request_id": "LVE-2026-000778",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000188",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-10-19T09:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000794",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000189",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-10-20T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000795",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000190",
+    "details": {
+      "message": "Available leave balance is below requested business days.",
+      "rule_ids": [
+        "L4"
+      ]
+    },
+    "detected_at": "2026-10-22T11:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "INSUFFICIENT_BALANCE",
+    "leave_request_id": "LVE-2026-000800",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000191",
+    "details": {
+      "message": "A receipt is required above the effective threshold.",
+      "pct_over": null,
+      "rule_id": "E3"
+    },
+    "detected_at": "2026-01-02T09:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": "EXPL-EXP-2026-000001-01",
+    "finding_code": "MISSING_RECEIPT",
+    "leave_request_id": null,
+    "reimbursement_id": null,
+    "severity": "WARNING",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000192",
+    "details": {
+      "message": "Receipt hash appears on another expense line.",
+      "pct_over": null,
+      "rule_id": "E3"
+    },
+    "detected_at": "2026-01-02T09:40:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": "EXPL-EXP-2026-000002-01",
+    "finding_code": "DUPLICATE_RECEIPT",
+    "leave_request_id": null,
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000193",
+    "details": {
+      "message": "Line exceeds the effective per-line policy limit.",
+      "pct_over": "20.00",
+      "rule_id": "E3"
+    },
+    "detected_at": "2026-01-02T10:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": "EXPL-EXP-2026-000003-01",
+    "finding_code": "POLICY_LIMIT_BREACH",
+    "leave_request_id": null,
+    "reimbursement_id": null,
+    "severity": "WARNING",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000194",
+    "details": {
+      "message": "Line exceeds the effective per-line policy limit.",
+      "pct_over": "60.00",
+      "rule_id": "E3"
+    },
+    "detected_at": "2026-01-02T10:20:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": "EXPL-EXP-2026-000004-01",
+    "finding_code": "POLICY_LIMIT_BREACH",
+    "leave_request_id": null,
+    "reimbursement_id": null,
+    "severity": "WARNING",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000195",
+    "details": {
+      "message": "Expense claim has no cost center.",
+      "pct_over": null,
+      "rule_id": "E3"
+    },
+    "detected_at": "2026-01-03T10:40:00+00:00",
+    "expense_claim_id": "EXP-2026-000005",
+    "expense_line_id": null,
+    "finding_code": "MISSING_COST_CENTER",
+    "leave_request_id": null,
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000196",
+    "details": {
+      "message": "Expense date is after AS_OF_DATE.",
+      "pct_over": null,
+      "rule_id": "E4"
+    },
+    "detected_at": "2026-01-03T11:20:00+00:00",
+    "expense_claim_id": "EXP-2026-000007",
+    "expense_line_id": null,
+    "finding_code": "FUTURE_EXPENSE_DATE",
+    "leave_request_id": null,
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000197",
+    "details": {
+      "message": "Expense claim has no cost center.",
+      "pct_over": null,
+      "rule_id": "E3"
+    },
+    "detected_at": "2026-05-13T11:00:00+00:00",
+    "expense_claim_id": "EXP-2026-000450",
+    "expense_line_id": null,
+    "finding_code": "MISSING_COST_CENTER",
+    "leave_request_id": null,
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000198",
+    "details": {
+      "message": "Expense date is outside the employee's employment dates.",
+      "pct_over": null,
+      "rule_id": "E3"
+    },
+    "detected_at": "2026-05-13T11:00:00+00:00",
+    "expense_claim_id": "EXP-2026-000450",
+    "expense_line_id": null,
+    "finding_code": "DATE_OUTSIDE_EMPLOYMENT",
+    "leave_request_id": null,
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000199",
+    "details": {
+      "boundary_usd": "1000",
+      "paired_claim_id": "EXP-2026-000301",
+      "rule_ids": [
+        "E10"
+      ]
+    },
+    "detected_at": "2026-10-22T16:00:00+00:00",
+    "expense_claim_id": "EXP-2026-000300",
+    "expense_line_id": null,
+    "finding_code": "SPLIT_CLAIM",
+    "leave_request_id": null,
+    "reimbursement_id": null,
+    "severity": "WARNING",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000200",
+    "details": {
+      "boundary_usd": "1000",
+      "paired_claim_id": "EXP-2026-000300",
+      "rule_ids": [
+        "E10"
+      ]
+    },
+    "detected_at": "2026-10-22T16:00:00+00:00",
+    "expense_claim_id": "EXP-2026-000301",
+    "expense_line_id": null,
+    "finding_code": "SPLIT_CLAIM",
+    "leave_request_id": null,
+    "reimbursement_id": null,
+    "severity": "WARNING",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000201",
+    "details": {
+      "overlapping_request_id": "LVE-2026-000051",
+      "rule_id": "L4"
+    },
+    "detected_at": "2026-10-22T16:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "OVERLAP",
+    "leave_request_id": "LVE-2026-000052",
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": "APR-EXP-2026-000140-01",
+    "audit_finding_id": "AFN-2026-000202",
+    "details": {
+      "employee_id": "EMP-000191",
+      "rule_id": "G5"
+    },
+    "detected_at": "2026-10-22T16:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "SELF_APPROVAL_PREVENTED",
+    "leave_request_id": null,
+    "reimbursement_id": null,
+    "severity": "ERROR",
+    "status": "OPEN"
+  },
+  {
+    "approval_step_id": null,
+    "audit_finding_id": "AFN-2026-000203",
+    "details": {
+      "expense_claim_id": "EXP-2026-000001",
+      "rule_id": "E9"
+    },
+    "detected_at": "2026-10-22T16:00:00+00:00",
+    "expense_claim_id": null,
+    "expense_line_id": null,
+    "finding_code": "DUPLICATE_REIMBURSEMENT",
+    "leave_request_id": null,
+    "reimbursement_id": "RMB-2026-000834",
+    "severity": "ERROR",
+    "status": "OPEN"
+  }
+]

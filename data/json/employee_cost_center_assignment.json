@@ -1,0 +1,3026 @@
+[
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000001"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000002"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000002"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000003"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000004"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0003",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000005"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000006"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000007"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000008"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000009"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000010"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000011"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000012"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000013"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0010",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000014"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000015"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000016"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000017"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000018"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000019"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000020"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000021"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000022"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000023"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000024"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000025"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000026"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000026"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000027"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000028"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000029"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000030"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000030"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000031"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000032"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000033"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000034"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000034"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-06-16",
+    "effective_to": null,
+    "employee_id": "EMP-000035"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-08-30",
+    "effective_to": null,
+    "employee_id": "EMP-000036"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-06-21",
+    "effective_to": null,
+    "employee_id": "EMP-000037"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-07-09",
+    "effective_to": null,
+    "employee_id": "EMP-000038"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-08-06",
+    "effective_to": null,
+    "employee_id": "EMP-000039"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-08-04",
+    "effective_to": null,
+    "employee_id": "EMP-000040"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-08-06",
+    "effective_to": null,
+    "employee_id": "EMP-000041"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-08-25",
+    "effective_to": null,
+    "employee_id": "EMP-000042"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0003",
+    "effective_from": "2026-07-18",
+    "effective_to": null,
+    "employee_id": "EMP-000043"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-06-06",
+    "effective_to": null,
+    "employee_id": "EMP-000044"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-07-10",
+    "effective_to": null,
+    "employee_id": "EMP-000045"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-07-30",
+    "effective_to": null,
+    "employee_id": "EMP-000046"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-06-02",
+    "effective_to": null,
+    "employee_id": "EMP-000047"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-06-16",
+    "effective_to": null,
+    "employee_id": "EMP-000048"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0003",
+    "effective_from": "2026-06-04",
+    "effective_to": null,
+    "employee_id": "EMP-000049"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-07-08",
+    "effective_to": null,
+    "employee_id": "EMP-000050"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-08-14",
+    "effective_to": null,
+    "employee_id": "EMP-000051"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-08-15",
+    "effective_to": null,
+    "employee_id": "EMP-000052"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-06-07",
+    "effective_to": null,
+    "employee_id": "EMP-000053"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-06-07",
+    "effective_to": null,
+    "employee_id": "EMP-000053"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-06-06",
+    "effective_to": null,
+    "employee_id": "EMP-000054"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-01-08",
+    "effective_to": "2026-06-08",
+    "employee_id": "EMP-000055"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-03-07",
+    "employee_id": "EMP-000056"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0003",
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-08-19",
+    "employee_id": "EMP-000057"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-08-13",
+    "employee_id": "EMP-000058"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0003",
+    "effective_from": "2026-10-13",
+    "effective_to": "2026-10-23",
+    "employee_id": "EMP-000059"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-10-06",
+    "employee_id": "EMP-000060"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-10-06",
+    "employee_id": "EMP-000060"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-06-11",
+    "employee_id": "EMP-000061"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-10-12",
+    "effective_to": "2026-10-23",
+    "employee_id": "EMP-000062"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-07-03",
+    "effective_to": "2026-08-25",
+    "employee_id": "EMP-000063"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-06-29",
+    "employee_id": "EMP-000064"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-04-09",
+    "employee_id": "EMP-000065"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-03-11",
+    "employee_id": "EMP-000066"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-08-24",
+    "effective_to": "2026-10-16",
+    "employee_id": "EMP-000067"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-07-17",
+    "employee_id": "EMP-000068"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-09-19",
+    "effective_to": "2026-10-21",
+    "employee_id": "EMP-000069"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-03-05",
+    "effective_to": "2026-10-13",
+    "employee_id": "EMP-000070"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-09-07",
+    "effective_to": null,
+    "employee_id": "EMP-000071"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000072"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000073"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000073"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000074"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-08-09",
+    "effective_to": null,
+    "employee_id": "EMP-000075"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000076"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0003",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000077"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000078"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000079"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000080"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000081"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-07-14",
+    "effective_to": null,
+    "employee_id": "EMP-000082"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000083"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000084"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000085"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000086"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-02-02",
+    "effective_to": null,
+    "employee_id": "EMP-000087"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000088"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0003",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000089"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000090"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000091"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000091"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000092"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-26",
+    "effective_to": null,
+    "employee_id": "EMP-000093"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000094"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000095"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000096"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000097"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-09-02",
+    "effective_to": null,
+    "employee_id": "EMP-000098"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0003",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000099"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000100"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000101"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000102"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000103"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000104"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000105"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0003",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000106"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-02-16",
+    "effective_to": null,
+    "employee_id": "EMP-000107"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000108"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000108"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000109"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000109"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0003",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000110"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000111"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000112"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000113"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000114"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000115"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000116"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-21",
+    "effective_to": null,
+    "employee_id": "EMP-000117"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000118"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000118"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000119"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000120"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000121"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-03-21",
+    "effective_to": null,
+    "employee_id": "EMP-000122"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-08-08",
+    "effective_to": null,
+    "employee_id": "EMP-000123"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000124"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0003",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000125"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000126"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-09-29",
+    "effective_to": null,
+    "employee_id": "EMP-000127"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-17",
+    "effective_to": null,
+    "employee_id": "EMP-000128"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000129"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000130"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000131"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-03-08",
+    "effective_to": null,
+    "employee_id": "EMP-000132"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000133"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0003",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000134"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0003",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000135"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0003",
+    "effective_from": "2026-07-07",
+    "effective_to": null,
+    "employee_id": "EMP-000136"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000137"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-09-10",
+    "effective_to": null,
+    "employee_id": "EMP-000138"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-09",
+    "effective_to": null,
+    "employee_id": "EMP-000139"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000140"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000141"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000142"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000143"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-05-18",
+    "effective_to": null,
+    "employee_id": "EMP-000144"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000145"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000146"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-03-10",
+    "effective_to": null,
+    "employee_id": "EMP-000147"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000148"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000149"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000150"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-10-22",
+    "effective_to": null,
+    "employee_id": "EMP-000151"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000152"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000152"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000153"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-01-09",
+    "effective_to": null,
+    "employee_id": "EMP-000154"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000155"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000156"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000157"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0001",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000158"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0007",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000159"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-09-02",
+    "effective_to": null,
+    "employee_id": "EMP-000160"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0004",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000161"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0002",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000162"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0006",
+    "effective_from": "2026-07-06",
+    "effective_to": null,
+    "employee_id": "EMP-000163"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0005",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000164"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-01-19",
+    "effective_to": null,
+    "employee_id": "EMP-000165"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000166"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-02-14",
+    "effective_to": null,
+    "employee_id": "EMP-000167"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0010",
+    "effective_from": "2026-06-08",
+    "effective_to": null,
+    "employee_id": "EMP-000168"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0010",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000169"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000170"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0010",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000171"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-03-03",
+    "effective_to": null,
+    "employee_id": "EMP-000172"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-04-29",
+    "effective_to": null,
+    "employee_id": "EMP-000173"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000174"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-03",
+    "effective_to": null,
+    "employee_id": "EMP-000175"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0010",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000176"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000177"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000178"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000179"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000180"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-05-27",
+    "effective_to": null,
+    "employee_id": "EMP-000181"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0010",
+    "effective_from": "2026-05-27",
+    "effective_to": null,
+    "employee_id": "EMP-000181"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-08-17",
+    "effective_to": null,
+    "employee_id": "EMP-000182"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000183"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000184"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000185"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000186"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000187"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000188"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000189"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-04-26",
+    "effective_to": null,
+    "employee_id": "EMP-000190"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000191"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000192"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-13",
+    "effective_to": null,
+    "employee_id": "EMP-000193"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000194"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-05-15",
+    "effective_to": null,
+    "employee_id": "EMP-000195"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-05-15",
+    "effective_to": null,
+    "employee_id": "EMP-000195"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000196"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-03-31",
+    "effective_to": null,
+    "employee_id": "EMP-000197"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000198"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000199"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000200"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-03-11",
+    "effective_to": null,
+    "employee_id": "EMP-000201"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000202"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0010",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000203"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000204"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000204"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0010",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000205"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-03-23",
+    "effective_to": null,
+    "employee_id": "EMP-000206"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-25",
+    "effective_to": null,
+    "employee_id": "EMP-000207"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-05-07",
+    "effective_to": null,
+    "employee_id": "EMP-000208"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-09-04",
+    "effective_to": null,
+    "employee_id": "EMP-000209"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000210"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000211"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000212"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000213"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-04-19",
+    "effective_to": null,
+    "employee_id": "EMP-000214"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000215"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000216"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000216"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000217"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-05-18",
+    "effective_to": null,
+    "employee_id": "EMP-000218"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-05-18",
+    "effective_to": null,
+    "employee_id": "EMP-000218"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-08-21",
+    "effective_to": null,
+    "employee_id": "EMP-000219"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0010",
+    "effective_from": "2026-04-14",
+    "effective_to": null,
+    "employee_id": "EMP-000220"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-04-14",
+    "effective_to": null,
+    "employee_id": "EMP-000220"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000221"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-03-22",
+    "effective_to": null,
+    "employee_id": "EMP-000222"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000223"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-09-28",
+    "effective_to": null,
+    "employee_id": "EMP-000224"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000225"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000226"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000227"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-09-04",
+    "effective_to": null,
+    "employee_id": "EMP-000228"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000229"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-09-07",
+    "effective_to": null,
+    "employee_id": "EMP-000230"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000231"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-09-03",
+    "effective_to": null,
+    "employee_id": "EMP-000232"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-07-28",
+    "effective_to": null,
+    "employee_id": "EMP-000233"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0010",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000234"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000235"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000236"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000237"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000238"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000239"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000240"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000241"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000241"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-05-04",
+    "effective_to": null,
+    "employee_id": "EMP-000242"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000243"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0008",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000244"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0011",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000245"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000246"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000247"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0012",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000248"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0010",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000248"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0010",
+    "effective_from": "2026-03-29",
+    "effective_to": null,
+    "employee_id": "EMP-000249"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000250"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000251"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0010",
+    "effective_from": "2026-03-23",
+    "effective_to": null,
+    "employee_id": "EMP-000252"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-03-28",
+    "effective_to": null,
+    "employee_id": "EMP-000253"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0009",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000254"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000255"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000256"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000256"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-07-01",
+    "effective_to": null,
+    "employee_id": "EMP-000257"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000258"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000259"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-05-08",
+    "effective_to": null,
+    "employee_id": "EMP-000260"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000261"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000262"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000263"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000264"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000265"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000266"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000267"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-08-17",
+    "effective_to": null,
+    "employee_id": "EMP-000268"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000269"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000270"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000271"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-08-20",
+    "effective_to": null,
+    "employee_id": "EMP-000272"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000273"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000274"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000275"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000275"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000276"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-05-12",
+    "effective_to": null,
+    "employee_id": "EMP-000277"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000278"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-09-09",
+    "effective_to": null,
+    "employee_id": "EMP-000279"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000280"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000280"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000281"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000282"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-10-22",
+    "effective_to": null,
+    "employee_id": "EMP-000283"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-03-30",
+    "effective_to": null,
+    "employee_id": "EMP-000284"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-06-09",
+    "effective_to": null,
+    "employee_id": "EMP-000285"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-03-14",
+    "effective_to": null,
+    "employee_id": "EMP-000286"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-03-14",
+    "effective_to": null,
+    "employee_id": "EMP-000286"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000287"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000288"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000289"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-04-17",
+    "effective_to": null,
+    "employee_id": "EMP-000290"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000291"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000291"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000292"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000293"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000294"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000295"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000296"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000297"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000298"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-04-22",
+    "effective_to": null,
+    "employee_id": "EMP-000299"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000300"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0013",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000301"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000302"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000303"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-05-29",
+    "effective_to": null,
+    "employee_id": "EMP-000304"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000305"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-04-12",
+    "effective_to": null,
+    "employee_id": "EMP-000306"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-02-13",
+    "effective_to": null,
+    "employee_id": "EMP-000307"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0015",
+    "effective_from": "2026-02-24",
+    "effective_to": null,
+    "employee_id": "EMP-000308"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0014",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000309"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-01-24",
+    "effective_to": null,
+    "employee_id": "EMP-000310"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-20",
+    "effective_to": null,
+    "employee_id": "EMP-000311"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-05-11",
+    "effective_to": null,
+    "employee_id": "EMP-000312"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-30",
+    "effective_to": null,
+    "employee_id": "EMP-000313"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000314"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-05-19",
+    "effective_to": null,
+    "employee_id": "EMP-000315"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-05-21",
+    "effective_to": null,
+    "employee_id": "EMP-000316"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000317"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000318"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000319"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-07-13",
+    "effective_to": null,
+    "employee_id": "EMP-000320"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000321"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000322"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000323"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000324"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000325"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000326"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-18",
+    "effective_to": null,
+    "employee_id": "EMP-000327"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000328"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-04-25",
+    "effective_to": null,
+    "employee_id": "EMP-000329"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-10-10",
+    "effective_to": null,
+    "employee_id": "EMP-000330"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-01-22",
+    "effective_to": null,
+    "employee_id": "EMP-000331"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000332"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000333"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000334"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-05-02",
+    "effective_to": null,
+    "employee_id": "EMP-000335"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-04-03",
+    "effective_to": null,
+    "employee_id": "EMP-000336"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-04-15",
+    "effective_to": null,
+    "employee_id": "EMP-000337"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000338"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000339"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-09-07",
+    "effective_to": null,
+    "employee_id": "EMP-000340"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000341"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000342"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000343"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000344"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000345"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000346"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-08-24",
+    "effective_to": null,
+    "employee_id": "EMP-000347"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000348"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000349"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000350"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000351"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000352"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000353"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000354"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000355"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000356"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-06-24",
+    "effective_to": null,
+    "employee_id": "EMP-000357"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-02-01",
+    "effective_to": null,
+    "employee_id": "EMP-000358"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-02-01",
+    "effective_to": null,
+    "employee_id": "EMP-000358"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000359"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-08-17",
+    "effective_to": null,
+    "employee_id": "EMP-000360"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000361"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0017",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000361"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0016",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000362"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000363"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0018",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000364"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-08-20",
+    "effective_to": null,
+    "employee_id": "EMP-000365"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-08-20",
+    "effective_to": null,
+    "employee_id": "EMP-000365"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000366"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000367"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000368"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000368"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000369"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000370"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000371"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000372"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-07-12",
+    "effective_to": null,
+    "employee_id": "EMP-000373"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-03-15",
+    "effective_to": null,
+    "employee_id": "EMP-000374"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000375"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000376"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-07-01",
+    "effective_to": null,
+    "employee_id": "EMP-000377"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-09-18",
+    "effective_to": null,
+    "employee_id": "EMP-000378"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-02-14",
+    "effective_to": null,
+    "employee_id": "EMP-000379"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-02-14",
+    "effective_to": null,
+    "employee_id": "EMP-000379"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000380"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000381"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000382"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000383"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000384"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-01-22",
+    "effective_to": null,
+    "employee_id": "EMP-000385"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-05-13",
+    "effective_to": null,
+    "employee_id": "EMP-000386"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-03-21",
+    "effective_to": null,
+    "employee_id": "EMP-000387"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-03-31",
+    "effective_to": null,
+    "employee_id": "EMP-000388"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-03-31",
+    "effective_to": null,
+    "employee_id": "EMP-000388"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000389"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000390"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000391"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000392"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000393"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-04-19",
+    "effective_to": null,
+    "employee_id": "EMP-000394"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000395"
+  },
+  {
+    "allocation_pct": "60.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000396"
+  },
+  {
+    "allocation_pct": "40.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000396"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000397"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000398"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0019",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000399"
+  },
+  {
+    "allocation_pct": "100.00",
+    "cost_center_id": "CC-0020",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "employee_id": "EMP-000400"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "budget_usd": "1825000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0001",
+    "country": "IN",
+    "name": "Engineering - IN Unit 01",
+    "owner_employee_id": "EMP-000003"
+  },
+  {
+    "budget_usd": "1850000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0002",
+    "country": "IN",
+    "name": "Engineering - IN Unit 02",
+    "owner_employee_id": "EMP-000004"
+  },
+  {
+    "budget_usd": "1875000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0003",
+    "country": "IN",
+    "name": "Engineering - IN Unit 03",
+    "owner_employee_id": "EMP-000005"
+  },
+  {
+    "budget_usd": "1900000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0004",
+    "country": "IN",
+    "name": "Engineering - IN Unit 04",
+    "owner_employee_id": "EMP-000006"
+  },
+  {
+    "budget_usd": "1250000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0005",
+    "country": "IN",
+    "name": "Sales - IN Unit 05",
+    "owner_employee_id": "EMP-000007"
+  },
+  {
+    "budget_usd": "1275000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0006",
+    "country": "IN",
+    "name": "Sales - IN Unit 06",
+    "owner_employee_id": "EMP-000008"
+  },
+  {
+    "budget_usd": "1300000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0007",
+    "country": "IN",
+    "name": "Sales - IN Unit 07",
+    "owner_employee_id": "EMP-000009"
+  },
+  {
+    "budget_usd": "925000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0008",
+    "country": "US",
+    "name": "Marketing - US Unit 08",
+    "owner_employee_id": "EMP-000012"
+  },
+  {
+    "budget_usd": "950000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0009",
+    "country": "US",
+    "name": "Marketing - US Unit 09",
+    "owner_employee_id": "EMP-000013"
+  },
+  {
+    "budget_usd": "700000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0010",
+    "country": "US",
+    "name": "Finance - US Unit 10",
+    "owner_employee_id": "EMP-000014"
+  },
+  {
+    "budget_usd": "725000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0011",
+    "country": "US",
+    "name": "Finance - US Unit 11",
+    "owner_employee_id": "EMP-000015"
+  },
+  {
+    "budget_usd": "600000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0012",
+    "country": "US",
+    "name": "HR - US Unit 12",
+    "owner_employee_id": "EMP-000016"
+  },
+  {
+    "budget_usd": "625000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0013",
+    "country": "GB",
+    "name": "HR - GB Unit 13",
+    "owner_employee_id": "EMP-000022"
+  },
+  {
+    "budget_usd": "1200000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0014",
+    "country": "GB",
+    "name": "Operations - GB Unit 14",
+    "owner_employee_id": "EMP-000023"
+  },
+  {
+    "budget_usd": "1100000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0015",
+    "country": "GB",
+    "name": "Operations - GB Unit 15",
+    "owner_employee_id": "EMP-000024"
+  },
+  {
+    "budget_usd": "1125000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0016",
+    "country": "DE",
+    "name": "Operations - DE Unit 16",
+    "owner_employee_id": "EMP-000027"
+  },
+  {
+    "budget_usd": "550000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0017",
+    "country": "DE",
+    "name": "Legal - DE Unit 17",
+    "owner_employee_id": "EMP-000028"
+  },
+  {
+    "budget_usd": "575000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0018",
+    "country": "DE",
+    "name": "Legal - DE Unit 18",
+    "owner_employee_id": "EMP-000029"
+  },
+  {
+    "budget_usd": "750000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0019",
+    "country": "SG",
+    "name": "Support - SG Unit 19",
+    "owner_employee_id": "EMP-000032"
+  },
+  {
+    "budget_usd": "650000",
+    "budget_year": 2026,
+    "cost_center_id": "CC-0020",
+    "country": "SG",
+    "name": "Support - SG Unit 20",
+    "owner_employee_id": "EMP-000033"
+  }
+]

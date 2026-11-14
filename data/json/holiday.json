@@ -1,0 +1,282 @@
+[
+  {
+    "country": "IN",
+    "holiday_date": "2026-01-05",
+    "holiday_id": "HOL-2026-IN-01",
+    "holiday_name": "Illustrative holiday 01",
+    "is_illustrative": true
+  },
+  {
+    "country": "IN",
+    "holiday_date": "2026-02-09",
+    "holiday_id": "HOL-2026-IN-02",
+    "holiday_name": "Illustrative holiday 02",
+    "is_illustrative": true
+  },
+  {
+    "country": "IN",
+    "holiday_date": "2026-03-16",
+    "holiday_id": "HOL-2026-IN-03",
+    "holiday_name": "Illustrative holiday 03",
+    "is_illustrative": true
+  },
+  {
+    "country": "IN",
+    "holiday_date": "2026-04-20",
+    "holiday_id": "HOL-2026-IN-04",
+    "holiday_name": "Illustrative holiday 04",
+    "is_illustrative": true
+  },
+  {
+    "country": "IN",
+    "holiday_date": "2026-06-08",
+    "holiday_id": "HOL-2026-IN-05",
+    "holiday_name": "Illustrative holiday 05",
+    "is_illustrative": true
+  },
+  {
+    "country": "IN",
+    "holiday_date": "2026-08-17",
+    "holiday_id": "HOL-2026-IN-06",
+    "holiday_name": "Illustrative holiday 06",
+    "is_illustrative": true
+  },
+  {
+    "country": "IN",
+    "holiday_date": "2026-10-12",
+    "holiday_id": "HOL-2026-IN-07",
+    "holiday_name": "Illustrative holiday 07",
+    "is_illustrative": true
+  },
+  {
+    "country": "IN",
+    "holiday_date": "2026-12-14",
+    "holiday_id": "HOL-2026-IN-08",
+    "holiday_name": "Illustrative holiday 08",
+    "is_illustrative": true
+  },
+  {
+    "country": "US",
+    "holiday_date": "2026-01-12",
+    "holiday_id": "HOL-2026-US-01",
+    "holiday_name": "Illustrative holiday 01",
+    "is_illustrative": true
+  },
+  {
+    "country": "US",
+    "holiday_date": "2026-02-23",
+    "holiday_id": "HOL-2026-US-02",
+    "holiday_name": "Illustrative holiday 02",
+    "is_illustrative": true
+  },
+  {
+    "country": "US",
+    "holiday_date": "2026-04-06",
+    "holiday_id": "HOL-2026-US-03",
+    "holiday_name": "Illustrative holiday 03",
+    "is_illustrative": true
+  },
+  {
+    "country": "US",
+    "holiday_date": "2026-05-18",
+    "holiday_id": "HOL-2026-US-04",
+    "holiday_name": "Illustrative holiday 04",
+    "is_illustrative": true
+  },
+  {
+    "country": "US",
+    "holiday_date": "2026-07-13",
+    "holiday_id": "HOL-2026-US-05",
+    "holiday_name": "Illustrative holiday 05",
+    "is_illustrative": true
+  },
+  {
+    "country": "US",
+    "holiday_date": "2026-09-14",
+    "holiday_id": "HOL-2026-US-06",
+    "holiday_name": "Illustrative holiday 06",
+    "is_illustrative": true
+  },
+  {
+    "country": "US",
+    "holiday_date": "2026-11-09",
+    "holiday_id": "HOL-2026-US-07",
+    "holiday_name": "Illustrative holiday 07",
+    "is_illustrative": true
+  },
+  {
+    "country": "US",
+    "holiday_date": "2026-12-21",
+    "holiday_id": "HOL-2026-US-08",
+    "holiday_name": "Illustrative holiday 08",
+    "is_illustrative": true
+  },
+  {
+    "country": "GB",
+    "holiday_date": "2026-01-19",
+    "holiday_id": "HOL-2026-GB-01",
+    "holiday_name": "Illustrative holiday 01",
+    "is_illustrative": true
+  },
+  {
+    "country": "GB",
+    "holiday_date": "2026-03-02",
+    "holiday_id": "HOL-2026-GB-02",
+    "holiday_name": "Illustrative holiday 02",
+    "is_illustrative": true
+  },
+  {
+    "country": "GB",
+    "holiday_date": "2026-04-13",
+    "holiday_id": "HOL-2026-GB-03",
+    "holiday_name": "Illustrative holiday 03",
+    "is_illustrative": true
+  },
+  {
+    "country": "GB",
+    "holiday_date": "2026-06-01",
+    "holiday_id": "HOL-2026-GB-04",
+    "holiday_name": "Illustrative holiday 04",
+    "is_illustrative": true
+  },
+  {
+    "country": "GB",
+    "holiday_date": "2026-07-20",
+    "holiday_id": "HOL-2026-GB-05",
+    "holiday_name": "Illustrative holiday 05",
+    "is_illustrative": true
+  },
+  {
+    "country": "GB",
+    "holiday_date": "2026-09-21",
+    "holiday_id": "HOL-2026-GB-06",
+    "holiday_name": "Illustrative holiday 06",
+    "is_illustrative": true
+  },
+  {
+    "country": "GB",
+    "holiday_date": "2026-11-16",
+    "holiday_id": "HOL-2026-GB-07",
+    "holiday_name": "Illustrative holiday 07",
+    "is_illustrative": true
+  },
+  {
+    "country": "GB",
+    "holiday_date": "2026-12-07",
+    "holiday_id": "HOL-2026-GB-08",
+    "holiday_name": "Illustrative holiday 08",
+    "is_illustrative": true
+  },
+  {
+    "country": "DE",
+    "holiday_date": "2026-01-26",
+    "holiday_id": "HOL-2026-DE-01",
+    "holiday_name": "Illustrative holiday 01",
+    "is_illustrative": true
+  },
+  {
+    "country": "DE",
+    "holiday_date": "2026-03-09",
+    "holiday_id": "HOL-2026-DE-02",
+    "holiday_name": "Illustrative holiday 02",
+    "is_illustrative": true
+  },
+  {
+    "country": "DE",
+    "holiday_date": "2026-04-27",
+    "holiday_id": "HOL-2026-DE-03",
+    "holiday_name": "Illustrative holiday 03",
+    "is_illustrative": true
+  },
+  {
+    "country": "DE",
+    "holiday_date": "2026-06-15",
+    "holiday_id": "HOL-2026-DE-04",
+    "holiday_name": "Illustrative holiday 04",
+    "is_illustrative": true
+  },
+  {
+    "country": "DE",
+    "holiday_date": "2026-08-03",
+    "holiday_id": "HOL-2026-DE-05",
+    "holiday_name": "Illustrative holiday 05",
+    "is_illustrative": true
+  },
+  {
+    "country": "DE",
+    "holiday_date": "2026-09-28",
+    "holiday_id": "HOL-2026-DE-06",
+    "holiday_name": "Illustrative holiday 06",
+    "is_illustrative": true
+  },
+  {
+    "country": "DE",
+    "holiday_date": "2026-11-23",
+    "holiday_id": "HOL-2026-DE-07",
+    "holiday_name": "Illustrative holiday 07",
+    "is_illustrative": true
+  },
+  {
+    "country": "DE",
+    "holiday_date": "2026-12-28",
+    "holiday_id": "HOL-2026-DE-08",
+    "holiday_name": "Illustrative holiday 08",
+    "is_illustrative": true
+  },
+  {
+    "country": "SG",
+    "holiday_date": "2026-02-02",
+    "holiday_id": "HOL-2026-SG-01",
+    "holiday_name": "Illustrative holiday 01",
+    "is_illustrative": true
+  },
+  {
+    "country": "SG",
+    "holiday_date": "2026-03-23",
+    "holiday_id": "HOL-2026-SG-02",
+    "holiday_name": "Illustrative holiday 02",
+    "is_illustrative": true
+  },
+  {
+    "country": "SG",
+    "holiday_date": "2026-05-11",
+    "holiday_id": "HOL-2026-SG-03",
+    "holiday_name": "Illustrative holiday 03",
+    "is_illustrative": true
+  },
+  {
+    "country": "SG",
+    "holiday_date": "2026-06-22",
+    "holiday_id": "HOL-2026-SG-04",
+    "holiday_name": "Illustrative holiday 04",
+    "is_illustrative": true
+  },
+  {
+    "country": "SG",
+    "holiday_date": "2026-08-10",
+    "holiday_id": "HOL-2026-SG-05",
+    "holiday_name": "Illustrative holiday 05",
+    "is_illustrative": true
+  },
+  {
+    "country": "SG",
+    "holiday_date": "2026-09-07",
+    "holiday_id": "HOL-2026-SG-06",
+    "holiday_name": "Illustrative holiday 06",
+    "is_illustrative": true
+  },
+  {
+    "country": "SG",
+    "holiday_date": "2026-10-26",
+    "holiday_id": "HOL-2026-SG-07",
+    "holiday_name": "Illustrative holiday 07",
+    "is_illustrative": true
+  },
+  {
+    "country": "SG",
+    "holiday_date": "2026-12-14",
+    "holiday_id": "HOL-2026-SG-08",
+    "holiday_name": "Illustrative holiday 08",
+    "is_illustrative": true
+  }
+]

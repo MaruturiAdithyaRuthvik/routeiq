@@ -1,0 +1,42 @@
+[
+  {
+    "category": "MEALS",
+    "description": "Meals and refreshments"
+  },
+  {
+    "category": "LODGING",
+    "description": "Accommodation and lodging"
+  },
+  {
+    "category": "AIRFARE",
+    "description": "Air travel"
+  },
+  {
+    "category": "GROUND_TRANSPORT",
+    "description": "Local ground transportation"
+  },
+  {
+    "category": "SOFTWARE",
+    "description": "Software and digital services"
+  },
+  {
+    "category": "OFFICE_SUPPLIES",
+    "description": "Office supplies and equipment"
+  },
+  {
+    "category": "TRAINING",
+    "description": "Training and professional development"
+  },
+  {
+    "category": "CLIENT_ENTERTAINMENT",
+    "description": "Client entertainment"
+  },
+  {
+    "category": "GIFTS",
+    "description": "Business gifts"
+  },
+  {
+    "category": "COMMUNICATION",
+    "description": "Communication services"
+  }
+]

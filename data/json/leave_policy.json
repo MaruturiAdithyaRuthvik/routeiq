@@ -1,0 +1,80 @@
+[
+  {
+    "annual_entitlement_days": "24",
+    "carry_forward_max_days": "10",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "is_unpaid": false,
+    "leave_policy_id": "LPO-001",
+    "lump_sum_days": null,
+    "max_consecutive_days": 20,
+    "medical_certificate_after_days": null,
+    "name": "Annual",
+    "tenure_required_months": 0
+  },
+  {
+    "annual_entitlement_days": "12",
+    "carry_forward_max_days": "0",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "is_unpaid": false,
+    "leave_policy_id": "LPO-002",
+    "lump_sum_days": null,
+    "max_consecutive_days": 15,
+    "medical_certificate_after_days": 2,
+    "name": "Sick",
+    "tenure_required_months": 0
+  },
+  {
+    "annual_entitlement_days": "8",
+    "carry_forward_max_days": "0",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "is_unpaid": false,
+    "leave_policy_id": "LPO-003",
+    "lump_sum_days": null,
+    "max_consecutive_days": 3,
+    "medical_certificate_after_days": null,
+    "name": "Casual",
+    "tenure_required_months": 0
+  },
+  {
+    "annual_entitlement_days": null,
+    "carry_forward_max_days": "0",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "is_unpaid": false,
+    "leave_policy_id": "LPO-004",
+    "lump_sum_days": "90",
+    "max_consecutive_days": null,
+    "medical_certificate_after_days": null,
+    "name": "Parental",
+    "tenure_required_months": 12
+  },
+  {
+    "annual_entitlement_days": null,
+    "carry_forward_max_days": "0",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "is_unpaid": false,
+    "leave_policy_id": "LPO-005",
+    "lump_sum_days": "5",
+    "max_consecutive_days": 5,
+    "medical_certificate_after_days": null,
+    "name": "Compassionate",
+    "tenure_required_months": 0
+  },
+  {
+    "annual_entitlement_days": null,
+    "carry_forward_max_days": "0",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "is_unpaid": true,
+    "leave_policy_id": "LPO-006",
+    "lump_sum_days": "0",
+    "max_consecutive_days": 30,
+    "medical_certificate_after_days": null,
+    "name": "Unpaid",
+    "tenure_required_months": 0
+  }
+]
