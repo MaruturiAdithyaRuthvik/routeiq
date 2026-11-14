@@ -2,17 +2,27 @@
 
 PRODUCT: Route leave and expense requests using policy, balances, budgets and approval authority. Expose key decisions and exceptions, preserve traceability, produce measurable outputs.
 
+PROBLEM STATEMENT ACCEPTANCE: Treat every sentence in docs/PROBLEM_STATEMENT.md as an acceptance criterion alongside this constitution. Support the named requester, process owner, approver, operations analyst and system administrator workflows. For Employee, LeavePolicy, LeaveBalance, LeaveRequest, ExpensePolicy, ExpenseClaim, ExpenseLine, CostCenter, ApprovalRule, ApprovalStep and Reimbursement, document every field's type, requiredness, allowed values, units, uniqueness and validation; define primary and foreign keys, 1:1/1:N/N:M cardinalities, optional links, effective dates, lifecycle states and bridge tables for many-to-many relationships. Generate parent/master data before dependent transaction/event data with valid parent IDs, validate all joins, and label deliberate anomalies with issue_type/ground_truth rather than corrupting unrelated records.
+
 ARCHITECTURE: Three independent tiers. (1) Frontend: React 18 + Vite + TypeScript + Tailwind + shadcn/ui in /frontend. (2) Backend: Python 3.12 + FastAPI + SQLAlchemy 2 + Pydantic v2 in /backend, managed with uv. (3) Database: PostgreSQL 16 in Docker, DDL in /db/schema.sql. Frontend talks only to the backend REST API (/api/v1). Backend is the only thing that touches the DB.
 
 PURE ENGINE: all business rules live in backend/app/engine as pure, deterministic, side-effect-free functions. The data generator AND the API both import this engine, so outcomes are derived from documented rules and never from independent random assignment.
+
+WORKFLOW AND OUTCOMES: Seed employee hierarchies and policies; compute leave accrual, balances, request date ranges and business-day counts; create expense claims with line items, receipt metadata and cost centers; route approvals by amount, category, country and manager; create approval steps and reimbursements only after final approval. Derive totals, balances, scores, statuses and dates from source records. Flag duplicate claims, enforce approval thresholds, allow reimbursements only for eligible approved claims, and make every decision reason auditable.
 
 IDs (immutable, zero-padded, referenced identically everywhere): EMP-000001; LVE-2026-000001; EXP-2026-000001; EXPL-<claim-id>-01 (e.g. EXPL-EXP-2026-000001-01); APR-<request-id>-01 (e.g. APR-LVE-2026-000001-01); RMB-2026-000001. Other entities: LPO-001 (leave policy), XPO-0001 (expense policy), CC-0001 (cost center), ARL-001 (approval rule), LBL-<emp>-<policy>-2026 (balance).
 
 HISTORY: never overwrite history. State changes are appended to event tables (leave_request_event, expense_claim_event, leave_ledger_entry, decision_audit).
 
-GROUND TRUTH: lives in a separate Postgres schema `ground_truth` and separate files. Only the evaluation service may read it. Audit detectors, routing engine and feature code must never import or query it. A test must enforce this.
+GROUND TRUTH: lives in a separate Postgres schema `ground_truth` and separate files, including a separate ground_truth.csv/json for known anomalies, expected decisions and labels. Only the evaluation service may read it. Audit detectors, routing engine, input features and other feature code must never import, query or leak it. A test must enforce this.
 
-DETERMINISM: fixed seed 20261022, fixed AS_OF_DATE 2026-10-22, no wall-clock, no uuid4, no unseeded randomness, sorted outputs. All data is 100% synthetic; no external data.
+SYNTHETIC DATA AND COVERAGE: Generate valid baseline records before injecting explicitly labelled edge cases. The full baseline has 400 employees, 6 leave policies, 800 leave requests and 1,000 expense claims with 1–10 lines each; parameterize scale so starter and full datasets use the same generator. Include the same employee's overlapping approved leave, insufficient and negative balances, weekend/holiday spans, missing receipts, duplicate receipt hashes, policy-limit breaches, multi-level approvals, out-of-employment expense dates, split claims to evade thresholds, missing cost centers, approval by the requester and duplicate reimbursements. Include realistic distributions and meaningful variation, and cover normal, boundary, failure and exception paths.
+
+DETERMINISM: fixed seed 20261022, fixed AS_OF_DATE 2026-10-22, no wall-clock, no uuid4, no unseeded randomness, sorted outputs. All generated scenario and transaction data is 100% synthetic; do not incorporate external records. Regenerate twice with the same seed and compare row counts and checksums.
+
+VALIDATION AND DELIVERABLES: Validate primary-key uniqueness, foreign-key integrity, allowed enums, date ordering, arithmetic reconciliation, lifecycle transitions and duplicates. Export CSV, JSON and SQL seed data with a README, schema and data dictionary, generator command, fixed seed, source manifest and validation summary. Produce meaningful evaluation metrics and verify realistic distributions, consistent IDs and joins, lifecycle consistency, derived-value reconciliation, and exception coverage.
+
+PUBLIC DATA: External data is optional. Do not use it as generated scenario or transaction data. If a public source is consulted, use only data legally permitted to access and redistribute; record its URL, dataset/version, retrieval date, license/terms, attribution, transformations and discarded fields. Never bypass access controls or collect confidential or personal information. If licensing or suitability is unclear, use synthetic data and cite public reference data only for schema inspiration.
 
 ENGINEERING RULES: type hints everywhere; ruff + pytest on backend; eslint + tsc strict + vitest on frontend; no secrets in git (.env.example only); small focused modules; docstrings that cite the rule IDs from docs/BUSINESS_RULES.md; every rule has unit tests including boundaries; conventional commits.
 
