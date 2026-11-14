@@ -1,0 +1,20 @@
+"""SQLAlchemy session and engine setup."""
+
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+
+from app.settings import settings
+
+engine = create_engine(settings.database_url, pool_pre_ping=True)
+SessionLocal = sessionmaker(bind=engine, expire_on_commit=False)
+
+
+def get_session():
+    with SessionLocal() as session:
+        yield session
+
+
+def reflect_models() -> None:
+    from app.db.models import Base
+
+    Base.prepare(autoload_with=engine)

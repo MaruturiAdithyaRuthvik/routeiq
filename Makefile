@@ -34,5 +34,8 @@ test:
 lint:
 	cd backend && uv run ruff check app tests
 
-dev build down:
+dev:
+	cd backend && uv run python -m app.api.main
+
+build down:
 	@echo "TODO: implement the $@ target."
