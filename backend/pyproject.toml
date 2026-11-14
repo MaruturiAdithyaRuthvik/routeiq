@@ -1,0 +1,40 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "RouteIQ backend engine and API"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.162.7",
+    "httpx>=0.28.1",
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "psycopg[binary]>=3.3.9",
+    "pydantic>=2",
+    "pydantic-settings>=2.16.3",
+    "pyjwt>=2.15.1",
+    "pytest>=9.2.0",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.17.5",
+    "sqlalchemy>=2",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests/engine"]
+addopts = ["--strict-config", "--strict-markers"]
+
+[tool.coverage.run]
+branch = true
+source = ["app/engine"]
+
+[tool.coverage.report]
+fail_under = 90
+show_missing = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I", "SIM", "UP"]
