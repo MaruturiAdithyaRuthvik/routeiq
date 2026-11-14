@@ -6,11 +6,13 @@ import { Toaster } from "sonner"
 import {
     AnalyticsPage,
     ContractPage,
-    DashboardPage,
     DesignPage,
     NotFoundPage,
     WorkflowPlaceholder,
 } from "@/pages"
+import { OverviewPage } from "@/pages/overview-page"
+import { LeaveRequestPage } from "@/pages/leave-request-page"
+import { ExpenseClaimPage } from "@/pages/expense-claim-page"
 import { AppShell } from "@/components/app-shell"
 import { Button, TooltipProvider } from "@/components/ui/primitives"
 import { AuthProvider } from "@/providers/auth-provider"
@@ -99,8 +101,8 @@ function RouteTable() {
     return (
         <Routes>
             <Route element={<AppShell />}>
-                <Route index element={<DashboardPage />} />
-                <Route path="overview" element={<DashboardPage />} />
+                <Route index element={<OverviewPage />} />
+                <Route path="overview" element={<OverviewPage />} />
                 <Route
                     path="leave"
                     element={<Navigate to="/leave-requests" replace />}
@@ -113,26 +115,8 @@ function RouteTable() {
                     path="requests"
                     element={<Navigate to="/leave-requests" replace />}
                 />
-                <Route
-                    path="leave/new"
-                    element={
-                        <WorkflowPlaceholder
-                            title="Time away, thoughtfully planned."
-                            description="Check dates, balance, and the approval path before submitting."
-                            operation="POST /leave-requests/preview → POST /leave-requests"
-                        />
-                    }
-                />
-                <Route
-                    path="expenses/new"
-                    element={
-                        <WorkflowPlaceholder
-                            title="Every detail, accounted for."
-                            description="Add a claim and see policy checks before it moves forward."
-                            operation="POST /expense-claims/preview → POST /expense-claims"
-                        />
-                    }
-                />
+                <Route path="leave/new" element={<LeaveRequestPage />} />
+                <Route path="expenses/new" element={<ExpenseClaimPage />} />
                 <Route
                     path="expense-claims/new"
                     element={<Navigate to="/expenses/new" replace />}

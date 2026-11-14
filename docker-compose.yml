@@ -1,8 +1,7 @@
 services:
   db:
     image: postgres:16-alpine
-    env_file:
-      - .env
+    env_file: .env
     ports:
       - "5432:5432"
     healthcheck:
@@ -16,6 +15,64 @@ services:
       - ./db/init:/docker-entrypoint-initdb.d:ro
       - ./db/schema.sql:/opt/routeiq/db/schema.sql:ro
       - ./db/views.sql:/opt/routeiq/db/views.sql:ro
+    restart: unless-stopped
+
+  seed:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+psycopg://routeiq_app_login:${ROUTEIQ_APP_PASSWORD}@db:5432/${POSTGRES_DB}
+      EVALUATOR_DATABASE_URL: postgresql://routeiq_evaluator_login:${ROUTEIQ_EVALUATOR_PASSWORD}@db:5432/${POSTGRES_DB}
+      POSTGRES_HOST: db
+    command: ["python", "-m", "app.db.seed"]
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+psycopg://routeiq_app_login:${ROUTEIQ_APP_PASSWORD}@db:5432/${POSTGRES_DB}
+      EVALUATOR_DATABASE_URL: postgresql://routeiq_evaluator_login:${ROUTEIQ_EVALUATOR_PASSWORD}@db:5432/${POSTGRES_DB}
+      POSTGRES_HOST: db
+      CORS_ORIGINS: http://localhost:8080
+      PORT: 8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      seed:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=2)"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 20s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/health"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
 
 volumes:
   routeiq_postgres_data:

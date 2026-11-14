@@ -53,14 +53,11 @@ def _database_url() -> str:
     ).replace("postgresql+psycopg://", "postgresql://")
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--from", dest="source", type=Path, required=True)
-    args = parser.parse_args()
+def load(source: Path) -> None:
     with psycopg.connect(_database_url()) as connection, connection.cursor() as cursor:
         cursor.execute("SET CONSTRAINTS ALL DEFERRED")
         for table in TABLE_ORDER:
-            path = args.source / f"{table}.csv"
+            path = source / f"{table}.csv"
             if not path.exists():
                 continue
             if table in PRESEEDED_TABLES:
@@ -97,7 +94,14 @@ def main() -> None:
                 f"COPY public.{table} ({columns}) FROM STDIN WITH (FORMAT CSV, HEADER TRUE)"
             ) as copy:
                 copy.write(buffer.getvalue().encode("utf-8"))
-    print(f"Loaded operational CSVs from {args.source}")
+    print(f"Loaded operational CSVs from {source}")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--from", dest="source", type=Path, required=True)
+    args = parser.parse_args()
+    load(args.source)
 
 
 if __name__ == "__main__":

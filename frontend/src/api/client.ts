@@ -102,7 +102,7 @@ export class ApiClient {
     constructor(
         private readonly baseUrl = API_BASE_URL,
         private readonly fixtureMode = useFixtures,
-        private readonly fetcher: typeof fetch = fetch,
+        private readonly fetcher: typeof fetch = globalThis.fetch.bind(globalThis),
     ) {
         this.token = storedToken()
     }

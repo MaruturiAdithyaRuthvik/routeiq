@@ -16,3 +16,8 @@
 | Core entities and cardinalities | [`ERD.md`](ERD.md), [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md) |
 | IDs: EMP/LVE/EXP/EXPL/APR/RMB | `backend/app/engine/ids.py`, `backend/app/datagen/validation.py` |
 | Evaluation focus: realism, coverage, provenance | `data/SOURCE_MANIFEST.json`, `data/validation_summary.*`, `README.md` |
+| Web application and role-based pages | `frontend/src/App.tsx`, `frontend/src/components/app-shell.tsx`, `make up` |
+| API client and contract-shaped request/response types | `frontend/src/api/client.ts`, `frontend/src/api/types.ts`, `docs/API_CONTRACT.md` |
+| Operational audit detectors | `backend/app/services/audit.py`, `POST /api/v1/audit/run` |
+| Ground-truth evaluation isolated from operational services | `backend/app/evaluation/service.py`, `GET /api/v1/evaluation/*` |
+| Containerized DB, seed, API, SPA, and reverse proxy | `docker-compose.yml`, `backend/Dockerfile`, `frontend/Dockerfile`, `frontend/nginx.conf` |

@@ -1,0 +1,15 @@
+# Third-party UI and component provenance
+
+The app uses shadcn/ui as copied source, not a hosted runtime. Components were added with the current `shadcn@4.23.0` CLI using its Vite template, Radix primitives, and the Nova preset. Their shared classes and interaction details have been adapted to the RouteIQ tokens, accessibility, and motion requirements.
+
+| Piece | Source | License | Modifications |
+| --- | --- | --- | --- |
+| shadcn/ui primitives: Button, Card, Badge, Input, Select, Dialog, Sheet, Tabs, Table, Skeleton, Tooltip, Command, Calendar, Textarea, Input Group, Popover, Avatar, Dropdown Menu | [Vite installation and registry](https://ui.shadcn.com/docs/installation/vite), [source repository](https://github.com/shadcn-ui/ui) | MIT | Installed via the shadcn CLI; recolored and reshaped to RouteIQ tokens, with pill buttons, spacious cards, frosted overlays, and consistent focus states. The app owns the resulting source. |
+| Number Ticker | [Magic UI Number Ticker](https://magicui.design/docs/components/number-ticker), [Magic UI repository](https://github.com/magicuidesign/magicui) | MIT | Installed from the Magic UI registry; used for dashboard values with tabular figures and app-level reduced-motion handling. |
+| Blur Fade | [Magic UI Blur Fade](https://magicui.design/docs/components/blur-fade), [Magic UI repository](https://github.com/magicuidesign/magicui) | MIT | Installed from the Magic UI registry; used on a small set of dashboard reveals, with restrained offset and duration. |
+| Bento Grid | [Magic UI Bento Grid](https://magicui.design/docs/components/bento-grid), [Magic UI repository](https://github.com/magicuidesign/magicui) | MIT | Installed from the Magic UI registry; its grid is adapted for compact, responsive KPI cards. |
+| Dock | [Magic UI Dock](https://magicui.design/docs/components/dock), [Magic UI repository](https://github.com/magicuidesign/magicui) | MIT | Installed from the Magic UI registry; restyled as a restrained, frosted desktop navigation dock. Mobile uses a separate accessible tab bar. |
+| Border Beam | [Magic UI Border Beam](https://magicui.design/docs/components/border-beam), [Magic UI repository](https://github.com/magicuidesign/magicui) | MIT | Installed from the Magic UI registry; softened to blue tones and used only on the dashboard hero card. |
+| Floating Dock reference | [21st.dev component page](https://21st.dev/@manuarora700/components/floating-dock.md), [21st.dev dock catalog](https://21st.dev/community/components/s/dock) | MIT (as stated on the component page) | The shadcn registry install was attempted but required an API key not present in the environment. No 21st.dev source was copied; the responsive navigation is implemented with the locally installed Magic UI Dock and RouteIQ styles. |
+
+Other direct UI/runtime dependencies are listed in `frontend/package.json`; their upstream licenses are distributed with their npm packages. SF system fonts are referenced only through the operating system stack and are not bundled. Inter Variable is bundled under the SIL Open Font License.

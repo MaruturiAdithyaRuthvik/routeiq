@@ -17,6 +17,8 @@ class Settings(BaseSettings):
     postgres_user: str = "routeiq"
     postgres_password: str = "routeiq_dev_only"
     postgres_db: str = "routeiq"
+    postgres_host: str = "localhost"
+    postgres_port: int = 5432
     jwt_secret: str = "routeiq-local-demo-secret-change-me"
     cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
     port: int = 8000

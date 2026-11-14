@@ -26,7 +26,7 @@ def load_ground_truth(data_dir: Path) -> None:
     )
     admin_url = (
         f"postgresql://{settings.postgres_user}:{settings.postgres_password}"
-        "@localhost:5432/" + settings.postgres_db
+        f"@{settings.postgres_host}:{settings.postgres_port}/{settings.postgres_db}"
     )
     with psycopg.connect(admin_url) as connection, connection.cursor() as cursor:
         for table, path in tables:

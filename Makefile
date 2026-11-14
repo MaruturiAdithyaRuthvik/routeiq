@@ -1,4 +1,8 @@
-.PHONY: setup db-up db-reset psql generate validate repro load test lint dev build down
+.PHONY: setup db-up db-reset psql generate validate repro load test lint dev build up down
+
+up:
+	@test -f .env || cp .env.example .env
+	docker compose up -d --build --wait
 
 db-up:
 	@test -f .env || cp .env.example .env
@@ -37,5 +41,8 @@ lint:
 dev:
 	cd backend && uv run python -m app.api.main
 
-build down:
-	@echo "TODO: implement the $@ target."
+build:
+	cd frontend && npm run build
+
+down:
+	docker compose down

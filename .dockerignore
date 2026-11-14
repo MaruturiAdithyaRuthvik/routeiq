@@ -1,0 +1,12 @@
+.git
+.venv
+backend/.venv
+backend/.pytest_cache
+backend/.ruff_cache
+frontend
+node_modules
+data/*
+!data/csv
+!data/csv/**
+!data/ground_truth
+!data/ground_truth/**

@@ -32,6 +32,9 @@ import {
     type Employee,
     type ExpenseClaimDetail,
     type ExpenseClaimPreview,
+    type ExpenseClaimPreviewRequest,
+    type ExpensePreviewFlag,
+    type ExpensePreviewLine,
     type EvaluationMiss,
     type EvaluationSummary,
     type ExpenseClaimSummary,
@@ -43,7 +46,9 @@ import {
     type LeaveRequestCancelResult,
     type LeaveRequestDetail,
     type LeaveRequestPreview,
+    type LeaveRequestPreviewRequest,
     type LeaveRequestSummary,
+    type ApprovalPathStep,
     type Me,
     type MetricsOverview,
     type Reimbursement,
@@ -220,15 +225,84 @@ const costCenters: CostCenter[] = [
     },
 ]
 
-const holidays: Holiday[] = [
-    {
-        holiday_id: "HOL-2026-US-01",
-        country: CountryCode.US,
-        holiday_date: "2026-01-12",
-        holiday_name: "Illustrative holiday 01",
-        is_illustrative: true,
-    },
-]
+const holidays: Holiday[] = (
+    [
+        [
+            CountryCode.IN,
+            [
+                "2026-01-05",
+                "2026-02-09",
+                "2026-03-16",
+                "2026-04-20",
+                "2026-06-08",
+                "2026-08-17",
+                "2026-10-12",
+                "2026-12-14",
+            ],
+        ],
+        [
+            CountryCode.US,
+            [
+                "2026-01-12",
+                "2026-02-23",
+                "2026-04-06",
+                "2026-05-18",
+                "2026-07-13",
+                "2026-09-14",
+                "2026-11-09",
+                "2026-12-21",
+            ],
+        ],
+        [
+            CountryCode.GB,
+            [
+                "2026-01-19",
+                "2026-03-02",
+                "2026-04-13",
+                "2026-06-01",
+                "2026-07-20",
+                "2026-09-21",
+                "2026-11-16",
+                "2026-12-07",
+            ],
+        ],
+        [
+            CountryCode.DE,
+            [
+                "2026-01-26",
+                "2026-03-09",
+                "2026-04-27",
+                "2026-06-15",
+                "2026-08-03",
+                "2026-09-28",
+                "2026-11-23",
+                "2026-12-28",
+            ],
+        ],
+        [
+            CountryCode.SG,
+            [
+                "2026-02-02",
+                "2026-03-23",
+                "2026-05-11",
+                "2026-06-22",
+                "2026-08-10",
+                "2026-09-07",
+                "2026-10-26",
+                "2026-12-14",
+            ],
+        ],
+    ] satisfies Array<[CountryCode, string[]]>
+).flatMap(([country, dates]) =>
+    dates.map((holiday_date, index) => ({
+        holiday_id:
+            `HOL-2026-${country}-${String(index + 1).padStart(2, "0")}` as Holiday["holiday_id"],
+        country,
+        holiday_date,
+        holiday_name: `Illustrative holiday ${String(index + 1).padStart(2, "0")}`,
+        is_illustrative: true as const,
+    })),
+)
 
 const leavePolicies: LeavePolicy[] = [
     {
@@ -244,21 +318,152 @@ const leavePolicies: LeavePolicy[] = [
         effective_from: "2026-01-01",
         effective_to: null,
     },
-]
-
-const expensePolicies: ExpensePolicy[] = [
     {
-        expense_policy_id: "XPO-0011",
-        category: ExpenseCategory.MEALS,
-        country: CountryCode.US,
-        per_line_limit_usd: "150.00",
-        receipt_threshold_usd: "25.00",
-        currency: "USD",
+        leave_policy_id: "LPO-002",
+        name: "Sick",
+        annual_entitlement_days: 12,
+        carry_forward_max_days: 0,
+        max_consecutive_days: 15,
+        medical_certificate_after_days: 2,
+        tenure_required_months: 0,
+        lump_sum_days: null,
+        is_unpaid: false,
         effective_from: "2026-01-01",
         effective_to: null,
-        version: 1,
+    },
+    {
+        leave_policy_id: "LPO-003",
+        name: "Casual",
+        annual_entitlement_days: 8,
+        carry_forward_max_days: 0,
+        max_consecutive_days: 3,
+        medical_certificate_after_days: null,
+        tenure_required_months: 0,
+        lump_sum_days: null,
+        is_unpaid: false,
+        effective_from: "2026-01-01",
+        effective_to: null,
+    },
+    {
+        leave_policy_id: "LPO-004",
+        name: "Parental",
+        annual_entitlement_days: null,
+        carry_forward_max_days: 0,
+        max_consecutive_days: null,
+        medical_certificate_after_days: null,
+        tenure_required_months: 12,
+        lump_sum_days: 90,
+        is_unpaid: false,
+        effective_from: "2026-01-01",
+        effective_to: null,
+    },
+    {
+        leave_policy_id: "LPO-005",
+        name: "Compassionate",
+        annual_entitlement_days: null,
+        carry_forward_max_days: 0,
+        max_consecutive_days: 5,
+        medical_certificate_after_days: null,
+        tenure_required_months: 0,
+        lump_sum_days: 5,
+        is_unpaid: false,
+        effective_from: "2026-01-01",
+        effective_to: null,
+    },
+    {
+        leave_policy_id: "LPO-006",
+        name: "Unpaid",
+        annual_entitlement_days: null,
+        carry_forward_max_days: 0,
+        max_consecutive_days: 30,
+        medical_certificate_after_days: null,
+        tenure_required_months: 0,
+        lump_sum_days: 0,
+        is_unpaid: true,
+        effective_from: "2026-01-01",
+        effective_to: null,
     },
 ]
+
+const usExpensePolicyValues: Record<
+    ExpenseCategory,
+    { per_line_limit_usd: number; receipt_threshold_usd: number }
+> = {
+    [ExpenseCategory.MEALS]: {
+        per_line_limit_usd: 150,
+        receipt_threshold_usd: 25,
+    },
+    [ExpenseCategory.LODGING]: {
+        per_line_limit_usd: 500,
+        receipt_threshold_usd: 50,
+    },
+    [ExpenseCategory.AIRFARE]: {
+        per_line_limit_usd: 2000,
+        receipt_threshold_usd: 0,
+    },
+    [ExpenseCategory.GROUND_TRANSPORT]: {
+        per_line_limit_usd: 250,
+        receipt_threshold_usd: 25,
+    },
+    [ExpenseCategory.SOFTWARE]: {
+        per_line_limit_usd: 3000,
+        receipt_threshold_usd: 0,
+    },
+    [ExpenseCategory.OFFICE_SUPPLIES]: {
+        per_line_limit_usd: 500,
+        receipt_threshold_usd: 25,
+    },
+    [ExpenseCategory.TRAINING]: {
+        per_line_limit_usd: 2000,
+        receipt_threshold_usd: 0,
+    },
+    [ExpenseCategory.CLIENT_ENTERTAINMENT]: {
+        per_line_limit_usd: 1000,
+        receipt_threshold_usd: 25,
+    },
+    [ExpenseCategory.GIFTS]: {
+        per_line_limit_usd: 500,
+        receipt_threshold_usd: 25,
+    },
+    [ExpenseCategory.COMMUNICATION]: {
+        per_line_limit_usd: 300,
+        receipt_threshold_usd: 25,
+    },
+}
+const expensePolicyScales: Record<CountryCode, number> = {
+    [CountryCode.IN]: 0.65,
+    [CountryCode.US]: 1,
+    [CountryCode.GB]: 0.95,
+    [CountryCode.DE]: 0.9,
+    [CountryCode.SG]: 1.05,
+}
+const expensePolicies: ExpensePolicy[] = Object.values(CountryCode).flatMap(
+    (country, countryIndex) =>
+        Object.values(ExpenseCategory).map((category, categoryIndex) => {
+            const base = usExpensePolicyValues[category]
+            const scale = expensePolicyScales[country]
+            const id =
+                countryIndex * Object.values(ExpenseCategory).length +
+                categoryIndex +
+                1
+            return {
+                expense_policy_id:
+                    `XPO-${String(id).padStart(4, "0")}` as ExpensePolicy["expense_policy_id"],
+                category,
+                country,
+                per_line_limit_usd: (base.per_line_limit_usd * scale).toFixed(
+                    2,
+                ),
+                receipt_threshold_usd: (
+                    base.receipt_threshold_usd * scale
+                ).toFixed(2),
+                currency: "USD",
+                effective_from: "2026-01-01",
+                effective_to: null,
+                version: 1,
+            }
+        }),
+)
 
 const approvalRules: ApprovalRule[] = [
     {
@@ -889,6 +1094,429 @@ const leavePreview: LeaveRequestPreview = {
     ],
 }
 
+function getLeaveRequestPreview(
+    request: LeaveRequestPreviewRequest,
+    token?: string | null,
+): LeaveRequestPreview {
+    const employeeId =
+        request.employee_id ?? token?.split(".")[1] ?? "EMP-000001"
+    const employee =
+        employees.find((item) => item.employee_id === employeeId) ??
+        employees[0]!
+    const policy = leavePolicies.find(
+        (item) => item.leave_policy_id === request.leave_policy_id,
+    )
+    const from = new Date(`${request.start_date}T00:00:00Z`)
+    const to = new Date(`${request.end_date}T00:00:00Z`)
+    const dateOrderOk =
+        !Number.isNaN(from.valueOf()) &&
+        !Number.isNaN(to.valueOf()) &&
+        from <= to
+    const excludedDates: LeaveRequestPreview["excluded_dates"] = []
+    let businessDays = 0
+
+    if (dateOrderOk) {
+        for (
+            const date = new Date(from);
+            date <= to;
+            date.setUTCDate(date.getUTCDate() + 1)
+        ) {
+            const isoDate = date.toISOString().slice(0, 10)
+            const weekday = date.getUTCDay()
+            const holiday = holidays.find(
+                (item) =>
+                    item.country === employee.country &&
+                    item.holiday_date === isoDate,
+            )
+            if (weekday === 0 || weekday === 6) {
+                excludedDates.push({
+                    date: isoDate,
+                    reason: ExcludedDateReason.WEEKEND,
+                })
+            } else if (holiday) {
+                excludedDates.push({
+                    date: isoDate,
+                    reason: ExcludedDateReason.HOLIDAY,
+                })
+            } else {
+                businessDays += 1
+            }
+        }
+    }
+
+    const balance = balances.find(
+        (item) =>
+            item.employee_id === employee.employee_id &&
+            item.leave_policy_id === request.leave_policy_id,
+    )
+    const availableDays =
+        balance?.available_days ??
+        policy?.annual_entitlement_days ??
+        policy?.lump_sum_days ??
+        0
+    const tenureMonths =
+        (from.getUTCFullYear() - Number(employee.hire_date.slice(0, 4))) * 12 +
+        from.getUTCMonth() -
+        Number(employee.hire_date.slice(5, 7)) +
+        (from.getUTCDate() >= Number(employee.hire_date.slice(8, 10)) ? 0 : -1)
+    const tenureEligible =
+        Boolean(policy) && tenureMonths >= (policy?.tenure_required_months ?? 0)
+    const overlapping = leaveRequests.some(
+        (item) =>
+            item.employee_id === employee.employee_id &&
+            item.status !== LeaveRequestStatus.CANCELLED &&
+            item.status !== LeaveRequestStatus.REJECTED &&
+            item.start_date <= request.end_date &&
+            item.end_date >= request.start_date,
+    )
+    const checks: LeaveRequestPreview["checks"] = leavePreview.checks.map(
+        (check) => {
+            const okByCode: Record<string, boolean> = {
+                DATE_ORDER: dateOrderOk,
+                BUSINESS_DAYS_POSITIVE: businessDays > 0,
+                EMPLOYEE_ACTIVE:
+                    employee.termination_date === null ||
+                    employee.termination_date >= request.end_date,
+                TENURE_ELIGIBLE: tenureEligible,
+                MAX_CONSECUTIVE:
+                    Boolean(policy) &&
+                    (policy?.max_consecutive_days === null ||
+                        businessDays <= (policy?.max_consecutive_days ?? 0)),
+                NO_OVERLAP: !overlapping,
+                BALANCE_SUFFICIENT:
+                    Boolean(policy?.is_unpaid) || availableDays >= businessDays,
+            }
+            const ok = okByCode[check.code] ?? false
+            return {
+                ...check,
+                ok,
+                message:
+                    check.code === "BUSINESS_DAYS_POSITIVE"
+                        ? ok
+                            ? `The range contains ${businessDays} business days.`
+                            : "The range contains no business days."
+                        : check.code === "BALANCE_SUFFICIENT"
+                          ? ok
+                              ? "Available balance covers the request."
+                              : "Available balance does not cover the request."
+                          : check.message,
+            }
+        },
+    )
+    const firstFailed = checks.find((check) => !check.ok)
+    const blockingReason =
+        firstFailed?.code === "DATE_ORDER"
+            ? ReasonCode.INVALID_DATE_RANGE
+            : firstFailed?.code === "BUSINESS_DAYS_POSITIVE"
+              ? ReasonCode.ZERO_BUSINESS_DAYS
+              : firstFailed?.code === "EMPLOYEE_ACTIVE"
+                ? ReasonCode.EMPLOYEE_NOT_ACTIVE
+                : firstFailed?.code === "TENURE_ELIGIBLE"
+                  ? ReasonCode.TENURE_INELIGIBLE
+                  : firstFailed?.code === "MAX_CONSECUTIVE"
+                    ? ReasonCode.MAX_CONSECUTIVE_DAYS
+                    : firstFailed?.code === "NO_OVERLAP"
+                      ? ReasonCode.OVERLAP
+                      : firstFailed
+                        ? ReasonCode.INSUFFICIENT_BALANCE
+                        : null
+    const path: ApprovalPathStep[] = checks.every((check) => check.ok)
+        ? [
+              {
+                  ...leavePreview.path[0]!,
+                  approver_id: employee.manager_id,
+                  approver_name:
+                      employees.find(
+                          (item) => item.employee_id === employee.manager_id,
+                      )?.display_name ?? leavePreview.path[0]!.approver_name,
+                  reason:
+                      businessDays <= 3
+                          ? "Direct manager per G5."
+                          : "Direct manager per G5; HR review is required for this duration.",
+              },
+              ...(businessDays >= 4
+                  ? [
+                        {
+                            level: 2,
+                            approver_type: ApprovalRole.HR_PARTNER,
+                            approver_id: "EMP-000003" as const,
+                            approver_name: "Riley Morgan",
+                            reason: "HR review is added for leave requests of 4 or more business days.",
+                            rule_ids: ["L5", "G5"],
+                        },
+                    ]
+                  : []),
+          ]
+        : []
+
+    return {
+        employee_id: employee.employee_id,
+        leave_policy_id: request.leave_policy_id,
+        start_date: request.start_date,
+        end_date: request.end_date,
+        business_days: businessDays,
+        excluded_dates: excludedDates,
+        balance_before: policy?.is_unpaid ? null : availableDays,
+        balance_after: policy?.is_unpaid ? null : availableDays - businessDays,
+        checks,
+        valid: checks.every((check) => check.ok),
+        blocking_reason: blockingReason,
+        path,
+    }
+}
+
+function getExpenseClaimPreview(
+    request: ExpenseClaimPreviewRequest,
+    token?: string | null,
+): ExpenseClaimPreview {
+    const employeeId =
+        request.employee_id ?? token?.split(".")[1] ?? "EMP-000001"
+    const employee =
+        employees.find((item) => item.employee_id === employeeId) ??
+        employees[0]!
+    const fxRates: Record<CurrencyCode, number> = {
+        [CurrencyCode.INR]: 0.012,
+        [CurrencyCode.USD]: 1,
+        [CurrencyCode.GBP]: 1.27,
+        [CurrencyCode.EUR]: 1.08,
+        [CurrencyCode.SGD]: 0.74,
+    }
+    const knownHashes = new Set(
+        expenseDetail.lines
+            .map((line) => line.receipt_hash)
+            .filter((hash): hash is string => hash !== null),
+    )
+    const seenHashes = new Set(knownHashes)
+    let duplicateReceipt = false
+    let hardLimitBreach = false
+    let receiptMetadataValid = true
+    const allFlags: ExpensePreviewFlag[] = []
+    const lines: ExpensePreviewLine[] = request.lines.map((line) => {
+        const fxRate = fxRates[line.currency]
+        const amountUsd = Math.round(Number(line.amount) * fxRate * 100) / 100
+        const policy =
+            expensePolicies.find(
+                (item) =>
+                    item.country === employee.country &&
+                    item.category === line.category,
+            ) ?? expensePolicies[0]!
+        const limit = Number(policy.per_line_limit_usd)
+        const threshold = Number(policy.receipt_threshold_usd)
+        const flags: ExpensePreviewFlag[] = []
+        if (amountUsd > limit) {
+            flags.push({
+                code: AuditFindingCode.POLICY_LIMIT_BREACH,
+                message: "Line is over the per-line policy limit.",
+                pct_over: Math.round((amountUsd / limit - 1) * 100),
+            })
+        }
+        if (amountUsd > threshold && !line.receipt_present) {
+            flags.push({
+                code: AuditFindingCode.MISSING_RECEIPT,
+                message: "A receipt is required for this amount.",
+                pct_over: null,
+            })
+        }
+        if (line.receipt_hash && seenHashes.has(line.receipt_hash)) {
+            duplicateReceipt = true
+            flags.push({
+                code: AuditFindingCode.DUPLICATE_RECEIPT,
+                message: "Receipt hash has already been used.",
+                pct_over: null,
+            })
+        }
+        if (line.receipt_hash) seenHashes.add(line.receipt_hash)
+        if (
+            line.receipt_present &&
+            (!line.receipt_id ||
+                !line.receipt_hash ||
+                !line.file_type ||
+                !line.size_kb ||
+                line.size_kb <= 0)
+        ) {
+            receiptMetadataValid = false
+        }
+        if (amountUsd > limit * 1.5) hardLimitBreach = true
+        allFlags.push(...flags)
+        return {
+            line_id: null,
+            line_number: line.line_number,
+            amount: line.amount,
+            currency: line.currency,
+            amount_usd: amountUsd.toFixed(2),
+            fx_rate: fxRate.toFixed(5),
+            reporting_currency: "USD",
+            flags,
+            limit_usd: policy.per_line_limit_usd,
+        }
+    })
+    const dateWithinEmployment =
+        request.expense_date >= employee.hire_date &&
+        (employee.termination_date === null ||
+            request.expense_date <= employee.termination_date)
+    const notFutureDated = request.expense_date <= "2026-10-22"
+    const costCenterPresent = request.cost_center_id !== null
+    const total = lines.reduce((sum, line) => sum + Number(line.amount_usd), 0)
+    const checks: ExpenseClaimPreview["checks"] = expensePreview.checks.map(
+        (check) => {
+            const okByCode: Record<string, boolean> = {
+                DATE_WITHIN_EMPLOYMENT: dateWithinEmployment,
+                NOT_FUTURE_DATED: notFutureDated,
+                COST_CENTER_PRESENT: costCenterPresent,
+                NO_DUPLICATE_RECEIPT: !duplicateReceipt,
+                NO_HARD_LIMIT_BREACH: !hardLimitBreach,
+                RECEIPT_METADATA_VALID: receiptMetadataValid,
+            }
+            return {
+                ...check,
+                ok: okByCode[check.code] ?? false,
+                message:
+                    check.code === "COST_CENTER_PRESENT" && !costCenterPresent
+                        ? "Choose a cost center before submitting."
+                        : check.message,
+            }
+        },
+    )
+
+    const baseRoles =
+        total < 50
+            ? allFlags.length === 0
+                ? [ApprovalRole.SYSTEM]
+                : [ApprovalRole.MANAGER]
+            : total < 1000
+              ? [ApprovalRole.MANAGER]
+              : total < 5000
+                ? [ApprovalRole.MANAGER, ApprovalRole.DEPT_HEAD]
+                : total < 20000
+                  ? [
+                        ApprovalRole.MANAGER,
+                        ApprovalRole.DEPT_HEAD,
+                        ApprovalRole.FINANCE_CONTROLLER,
+                    ]
+                  : [
+                        ApprovalRole.MANAGER,
+                        ApprovalRole.DEPT_HEAD,
+                        ApprovalRole.FINANCE_CONTROLLER,
+                        ApprovalRole.CFO,
+                    ]
+    const addRole = (role: ApprovalRole) => {
+        if (!baseRoles.includes(role)) baseRoles.push(role)
+    }
+    const internationalAirfare = request.lines.some(
+        (line) =>
+            line.category === ExpenseCategory.AIRFARE &&
+            employee.country !== request.merchant_country,
+    )
+    const highRiskCategory = request.lines.some(
+        (line) =>
+            (line.category === ExpenseCategory.CLIENT_ENTERTAINMENT ||
+                line.category === ExpenseCategory.GIFTS) &&
+            Number(
+                lines.find((item) => item.line_number === line.line_number)
+                    ?.amount_usd ?? 0,
+            ) > 250,
+    )
+    if (internationalAirfare) addRole(ApprovalRole.FINANCE_CONTROLLER)
+    if (highRiskCategory) addRole(ApprovalRole.COMPLIANCE_OFFICER)
+    if (
+        allFlags.some(
+            (flag) =>
+                flag.code === AuditFindingCode.POLICY_LIMIT_BREACH ||
+                flag.code === AuditFindingCode.MISSING_RECEIPT,
+        )
+    ) {
+        addRole(ApprovalRole.FINANCE_CONTROLLER)
+    }
+
+    const approverDetails: Record<
+        ApprovalRole,
+        {
+            id: string | null
+            name: string | null
+            reason: string
+            rules: string[]
+        }
+    > = {
+        [ApprovalRole.MANAGER]: {
+            id: employee.manager_id,
+            name:
+                employees.find(
+                    (item) => item.employee_id === employee.manager_id,
+                )?.display_name ?? "Manager",
+            reason: "Claim total is routed to the employee's manager.",
+            rules: ["E5", "E7"],
+        },
+        [ApprovalRole.DEPT_HEAD]: {
+            id: request.cost_center_id,
+            name:
+                costCenters.find(
+                    (center) =>
+                        center.cost_center_id === request.cost_center_id,
+                )?.owner_name ?? "Department head",
+            reason: "Claim total requires department-head review.",
+            rules: ["E5", "E7"],
+        },
+        [ApprovalRole.FINANCE_CONTROLLER]: {
+            id: "EMP-000004",
+            name: "Taylor Brooks",
+            reason: "An exception requires finance review.",
+            rules: ["E6", "AU3"],
+        },
+        [ApprovalRole.CFO]: {
+            id: "EMP-000006",
+            name: "Casey Nguyen",
+            reason: "Claim total requires CFO review.",
+            rules: ["E5", "E7"],
+        },
+        [ApprovalRole.COMPLIANCE_OFFICER]: {
+            id: "EMP-000005",
+            name: "Morgan Lee",
+            reason: "A high-risk category requires compliance review.",
+            rules: ["E6", "AU3"],
+        },
+        [ApprovalRole.HR_PARTNER]: {
+            id: "EMP-000003",
+            name: "Riley Morgan",
+            reason: "HR review is required.",
+            rules: ["E6"],
+        },
+        [ApprovalRole.SYSTEM]: {
+            id: null,
+            name: "RouteIQ",
+            reason: "Claim is within the automatic approval band.",
+            rules: ["E5"],
+        },
+    }
+    const path = baseRoles.map((role, index) => {
+        const detail = approverDetails[role]
+        return {
+            level: index + 1,
+            approver_type: role,
+            approver_id: detail.id as ApprovalPathStep["approver_id"],
+            approver_name: detail.name,
+            reason: detail.reason,
+            rule_ids: detail.rules,
+        }
+    })
+    const exception = allFlags.length > 0 || checks.some((check) => !check.ok)
+
+    return {
+        employee_id: employee.employee_id,
+        merchant_name: request.merchant_name,
+        merchant_country: request.merchant_country,
+        expense_date: request.expense_date,
+        cost_center_id: request.cost_center_id,
+        lines,
+        total_usd: total.toFixed(2),
+        reporting_currency: "USD",
+        checks,
+        path,
+        exception_banner: exception
+            ? "One or more lines need additional attention. This claim will route to finance for review."
+            : null,
+    }
+}
+
 function list<T>(
     values: T[],
     query?: Record<string, string | number | boolean | null | undefined>,
@@ -972,11 +1600,25 @@ export function getFixture(
     }
     if (path === "/cost-centers" && verb === "GET")
         return list(costCenters, query)
-    if (path === "/holidays" && verb === "GET") return list(holidays, query)
+    if (path === "/holidays" && verb === "GET") {
+        const matches = holidays.filter(
+            (holiday) =>
+                (!query?.country || holiday.country === query.country) &&
+                (!query?.year ||
+                    holiday.holiday_date.startsWith(String(query.year))),
+        )
+        return list(matches, query)
+    }
     if (path === "/leave-policies" && verb === "GET")
         return list(leavePolicies, query)
-    if (path === "/expense-policies" && verb === "GET")
-        return list(expensePolicies, query)
+    if (path === "/expense-policies" && verb === "GET") {
+        const matches = expensePolicies.filter(
+            (policy) =>
+                (!query?.country || policy.country === query.country) &&
+                (!query?.category || policy.category === query.category),
+        )
+        return list(matches, query)
+    }
     if (path === "/approval-rules" && verb === "GET")
         return list(approvalRules, query)
     if (/^\/employees\/[^/]+\/leave-balances$/.test(path) && verb === "GET")
@@ -996,8 +1638,11 @@ export function getFixture(
             employees.find((item) => item.employee_id === path.split("/")[2]) ??
                 employees[0]!,
         )
-    if (path === "/leave-requests/preview" && verb === "POST")
-        return single(leavePreview)
+    if (path === "/leave-requests/preview" && verb === "POST") {
+        const request = body as LeaveRequestPreviewRequest | undefined
+        if (!request) throw new Error("Leave preview requires a request body.")
+        return single(getLeaveRequestPreview(request, token))
+    }
     if (path === "/leave-requests" && verb === "GET")
         return list(leaveRequests, query)
     if (path === "/leave-requests" && verb === "POST")
@@ -1006,8 +1651,12 @@ export function getFixture(
         return single(leaveCancel)
     if (/^\/leave-requests\/[^/]+$/.test(path) && verb === "GET")
         return single(leaveDetail)
-    if (path === "/expense-claims/preview" && verb === "POST")
-        return single(expensePreview)
+    if (path === "/expense-claims/preview" && verb === "POST") {
+        const request = body as ExpenseClaimPreviewRequest | undefined
+        if (!request)
+            throw new Error("Expense preview requires a request body.")
+        return single(getExpenseClaimPreview(request, token))
+    }
     if (path === "/expense-claims" && verb === "GET")
         return list(expenseClaims, query)
     if (path === "/expense-claims" && verb === "POST")

@@ -59,3 +59,19 @@ The generated full-scale ground-truth file currently contains: negative balance 
 ## Limitations
 
 This is a hackathon-scale synthetic fixture, not legal, payroll, tax, or accounting advice. Holiday calendars, policy limits, employee identities, merchants, and budgets are illustrative. Reimbursement payment dates are deterministic projections, not payment instructions. The loader expects a fresh compatible schema and is intended for local demonstration.
+
+## Web app
+
+Run `make up` and open [http://localhost:8080](http://localhost:8080); use `make down` to stop the stack. The first run builds both images, waits for PostgreSQL, and loads `data/csv` only when `public.employee` is empty. The persona switcher offers Requester, Approver, Process owner, Analyst, and Admin.
+
+Pages include Overview, My requests, New leave request, New expense claim, Approval inbox, Reimbursements, Analytics, Audit findings/run, Evaluation summary/misses, People, Employee profile/balances, Cost centers, Holidays, Leave policies, Expense policies, Approval rules, Demo personas, and Dataset manifest.
+
+The UI calls `/api/v1/auth/personas`, `/auth/demo-login`, `/me`, reference endpoints, `/leave-requests/preview`, `/leave-requests`, `/expense-claims/preview`, `/expense-claims`, `/approvals/inbox`, `/approval-steps/{id}/decision`, `/audit/run`, `/evaluation/summary`, `/evaluation/misses`, and `/metrics/overview`. API mode is the default; fixture mode must be explicitly enabled for local UI development and is not included in production builds.
+
+### Five-minute judge demo
+
+1. **Requester (1 min):** open Overview, create a leave preview, review business-day exclusions and checks, then preview an expense with receipt metadata.
+2. **Approver (1 min):** switch persona, open Approval inbox, inspect a pending item and decide it.
+3. **Process owner (1 min):** review people, cost centers, policies, and approval rules; inspect reimbursements and run the operational audit.
+4. **Analyst (1 min):** review metrics, audit findings, evaluation summary, and misses; explain the precision/recall values.
+5. **Admin (1 min):** switch persona, inspect the dataset manifest and full workflow pages; point out that all records and identities are synthetic.
