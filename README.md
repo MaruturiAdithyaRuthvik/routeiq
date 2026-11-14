@@ -63,6 +63,11 @@ This is a hackathon-scale synthetic fixture, not legal, payroll, tax, or account
 ## Web app
 <img width="1440" height="900" alt="Image 1" src="https://github.com/user-attachments/assets/2b1ab4fb-f3d8-4da3-b7b6-2c77b54ee9f7" />
 
+<img width="1440" height="900" alt="Image 3" src="https://github.com/user-attachments/assets/4064a6b8-ab6e-486c-9b98-bf1df53252d3" />
+<img width="390" height="844" alt="Image 4" src="https://github.com/user-attachments/assets/8d59eb84-ee88-4915-93b5-62c67b01fabe" />
+<img width="1440" height="900" alt="Image 2" src="https://github.com/user-attachments/assets/9f07a1e3-80b6-491c-bc20-be1c80db1434" />
+
+
 
 Run `make up` and open [http://localhost:8080](http://localhost:8080); use `make down` to stop the stack. The first run builds both images, waits for PostgreSQL, and loads `data/csv` only when `public.employee` is empty. The persona switcher offers Requester, Approver, Process owner, Analyst, and Admin.
 
