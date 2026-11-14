@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:16-alpine
+    env_file:
+      - .env
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U \"$${POSTGRES_USER}\" -d \"$${POSTGRES_DB}\""]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+      start_period: 10s
+    volumes:
+      - routeiq_postgres_data:/var/lib/postgresql/data
+      - ./db/init:/docker-entrypoint-initdb.d:ro
+      - ./db/schema.sql:/opt/routeiq/db/schema.sql:ro
+      - ./db/views.sql:/opt/routeiq/db/views.sql:ro
+
+volumes:
+  routeiq_postgres_data:

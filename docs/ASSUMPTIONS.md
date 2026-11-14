@@ -69,5 +69,13 @@ These are explicit resolutions for details not fixed by `docs/PROBLEM_STATEMENT.
 
 ## Existing scaffold decisions
 
-- The root `Makefile` targets remain placeholders until implementation commands exist.
+- Non-database root `Makefile` targets remain placeholders until their implementation commands exist.
 - `.env.example` contains local development connection settings and reproducibility values only; replace its sample database credentials for non-local deployment.
+
+## Database implementation decisions
+
+- Add nullable `employee.cost_center_id` to support the explicitly requested deferred circular foreign keys between employees and cost centers. It represents the employee's primary cost center; the documented `EmployeeCostCenterAssignment` bridge remains the source for dated, allocated multi-center assignments.
+- Keep `approval_step.approver_employee_id` as documented in the dictionary; the requested SQL name `approver_id` maps to this same field. It remains a plain employee foreign key with no requester-difference constraint so labeled self-approval anomalies remain loadable.
+- Database access roles `routeiq_app` and `routeiq_evaluator` are non-login groups; initialization creates separate login roles from the development-only passwords in `.env.example` and grants each login its matching group. Only the evaluator group receives privileges on `ground_truth`; the `POSTGRES_USER` account is reserved for local administration.
+- The views use the fixed 2026-10-22 evaluation date. Spend reports approved and reimbursed claims by their 2026 cost center; cycle time is measured from the first SUBMITTED event to the terminal approval/rejection/cancellation event.
+- `make db-up` and the smoke script copy `.env.example` to the ignored `.env` when it is absent. The local sample credentials are for development only.
