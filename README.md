@@ -61,6 +61,8 @@ The generated full-scale ground-truth file currently contains: negative balance 
 This is a hackathon-scale synthetic fixture, not legal, payroll, tax, or accounting advice. Holiday calendars, policy limits, employee identities, merchants, and budgets are illustrative. Reimbursement payment dates are deterministic projections, not payment instructions. The loader expects a fresh compatible schema and is intended for local demonstration.
 
 ## Web app
+<img width="1440" height="900" alt="Image 1" src="https://github.com/user-attachments/assets/2b1ab4fb-f3d8-4da3-b7b6-2c77b54ee9f7" />
+
 
 Run `make up` and open [http://localhost:8080](http://localhost:8080); use `make down` to stop the stack. The first run builds both images, waits for PostgreSQL, and loads `data/csv` only when `public.employee` is empty. The persona switcher offers Requester, Approver, Process owner, Analyst, and Admin.
 
